@@ -32,7 +32,7 @@
 <h3 align="center">Lighthouse Labs Final Project Estimating Water Well Quality Using Geospatial Analysis</h3>
 
   <p align="center">
-    Lighthouse Labs Unsupervised Learning Project Assignment
+    Lighthouse Labs Final Project
     <br />
     <a href="https://github.com/dy-chi/baseline_alberta_water_well_quality_estimator"><strong>Explore the docs »</strong></a>
     <br />
@@ -43,6 +43,11 @@
 
 
 
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
 
 
@@ -81,16 +86,17 @@ There was a strong geospatial autocorrelation for Fluoride, Total Dissolved Soli
 
 Depth from ground surface was not considered due to the sparseness of the depth data and the limited range of depths drilled to.
 
-For a given potential well location, if there are wells within the distance at which there is a strong geospatial correlation for that feature, the mean of the feature for the returned wells is calculated.
+For a given potential well location, if there are wells within the distance at which there is a strong geospatial correlation for that feature, the mean of the feature for the returned wells is calculated and a warning is issued for estimations that exceed guidelines 
+
+**Tableau Concentration Maps**
+
+Simple maps are included for various water chemistry varibles, including the extracted smell quality variables which did not end up showing any geospatial patterns 
+
 
 **Download the Data**
-pre-extracted csv files from the bbwt.db are made aviable here, hoever data can be downloaded below
+pre-extracted csv files from the bbwt.db are made available here; however, data can be downloaded below
 
 Navigate to the Data tab in [Alberta Water Wells](https://groundwater.alberta.ca/WaterWells/) and download the zip file containing bwwt.db
-
-
-
-
 
 
 <!-- CONTACT -->
