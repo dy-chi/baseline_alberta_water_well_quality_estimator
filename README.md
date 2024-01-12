@@ -86,7 +86,7 @@ Depth from ground surface was not considered due to the sparseness of the depth 
 
 For a given potential well location, if there are wells within the distance at which there is a strong geospatial correlation for that feature, the mean of the feature for the returned wells is calculated and a warning is issued for estimations that exceed guidelines 
 
-[Link Text](https://dy-chi.github.io/baseline_alberta_water_well_quality_estimator/)
+[Example Map](https://dy-chi.github.io/baseline_alberta_water_well_quality_estimator/)
 
 
 
