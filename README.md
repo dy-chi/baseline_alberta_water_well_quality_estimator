@@ -85,7 +85,10 @@ There was a strong geospatial autocorrelation for Fluoride, Total Dissolved Soli
 Depth from ground surface was not considered due to the sparseness of the depth data and the limited range of depths drilled to.
 
 For a given potential well location, if there are wells within the distance at which there is a strong geospatial correlation for that feature, the mean of the feature for the returned wells is calculated and a warning is issued for estimations that exceed guidelines 
-![Map](index.html)
+
+[Link Text](https://dy-chi.github.io/baseline_alberta_water_well_quality_estimator/)
+
+
 
 
 **Tableau Concentration Maps**
