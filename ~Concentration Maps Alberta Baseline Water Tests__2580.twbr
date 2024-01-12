@@ -1,0 +1,1698 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20232.23.0805.0415                               -->
+<workbook original-version='18.1' source-build='2023.2.1 (20232.23.0805.0415)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='well_analysis_full_no_geo_dups' inline='true' name='federated.1p2xpxi1awatix1bx8h9311lf8gm' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='well_analysis_full_no_geo_dups' name='textscan.13l1rqm1dnrbbu11rz9jr1wj8pvd'>
+            <connection class='textscan' directory='C:/Users/dychi/Alberta Water Wells' filename='well_analysis_full_no_geo_dups.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.13l1rqm1dnrbbu11rz9jr1wj8pvd' name='well_analysis_full_no_geo_dups.csv' table='[well_analysis_full_no_geo_dups#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='geometry' ordinal='0' />
+            <column datatype='integer' name='WELL_ID' ordinal='1' />
+            <column datatype='integer' name='WELL_TEST_ID' ordinal='2' />
+            <column datatype='real' name='LATTITUDE' ordinal='3' />
+            <column datatype='real' name='LONGITUDE' ordinal='4' />
+            <column datatype='integer' name='WQUAL_DETAILS_ID' ordinal='5' />
+            <column datatype='real' name='total alkalinity_value' ordinal='6' />
+            <column datatype='real' name='carbonate_value' ordinal='7' />
+            <column datatype='real' name='nitrite as nitrogen_value' ordinal='8' />
+            <column datatype='real' name='nitrate as nitrogen_value' ordinal='9' />
+            <column datatype='real' name='ph_value' ordinal='10' />
+            <column datatype='real' name='bicarbonate_value' ordinal='11' />
+            <column datatype='real' name='total dissolved solids_value' ordinal='12' />
+            <column datatype='real' name='fluoride_value' ordinal='13' />
+            <column datatype='real' name='total hardness_value' ordinal='14' />
+            <column datatype='real' name='chloride_value' ordinal='15' />
+            <column datatype='real' name='manganese_value' ordinal='16' />
+            <column datatype='real' name='iron_value' ordinal='17' />
+            <column datatype='real' name='sulphate_value' ordinal='18' />
+            <column datatype='real' name='calcium_value' ordinal='19' />
+            <column datatype='real' name='sodium_value' ordinal='20' />
+            <column datatype='real' name='potassium_value' ordinal='21' />
+            <column datatype='real' name='magnesium_value' ordinal='22' />
+            <column datatype='real' name='iron (total)_value' ordinal='23' />
+            <column datatype='real' name='nitrite + nitrate as nitrogen_value' ordinal='24' />
+            <column datatype='real' name='ionic balance_value' ordinal='25' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.13l1rqm1dnrbbu11rz9jr1wj8pvd' name='well_analysis_full_no_geo_dups.csv' table='[well_analysis_full_no_geo_dups#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='string' name='geometry' ordinal='0' />
+            <column datatype='integer' name='WELL_ID' ordinal='1' />
+            <column datatype='integer' name='WELL_TEST_ID' ordinal='2' />
+            <column datatype='real' name='LATTITUDE' ordinal='3' />
+            <column datatype='real' name='LONGITUDE' ordinal='4' />
+            <column datatype='integer' name='WQUAL_DETAILS_ID' ordinal='5' />
+            <column datatype='real' name='total alkalinity_value' ordinal='6' />
+            <column datatype='real' name='carbonate_value' ordinal='7' />
+            <column datatype='real' name='nitrite as nitrogen_value' ordinal='8' />
+            <column datatype='real' name='nitrate as nitrogen_value' ordinal='9' />
+            <column datatype='real' name='ph_value' ordinal='10' />
+            <column datatype='real' name='bicarbonate_value' ordinal='11' />
+            <column datatype='real' name='total dissolved solids_value' ordinal='12' />
+            <column datatype='real' name='fluoride_value' ordinal='13' />
+            <column datatype='real' name='total hardness_value' ordinal='14' />
+            <column datatype='real' name='chloride_value' ordinal='15' />
+            <column datatype='real' name='manganese_value' ordinal='16' />
+            <column datatype='real' name='iron_value' ordinal='17' />
+            <column datatype='real' name='sulphate_value' ordinal='18' />
+            <column datatype='real' name='calcium_value' ordinal='19' />
+            <column datatype='real' name='sodium_value' ordinal='20' />
+            <column datatype='real' name='potassium_value' ordinal='21' />
+            <column datatype='real' name='magnesium_value' ordinal='22' />
+            <column datatype='real' name='iron (total)_value' ordinal='23' />
+            <column datatype='real' name='nitrite + nitrate as nitrogen_value' ordinal='24' />
+            <column datatype='real' name='ionic balance_value' ordinal='25' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geometry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[geometry]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>geometry</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WELL_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WELL_ID]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>WELL_ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WELL_TEST_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WELL_TEST_ID]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>WELL_TEST_ID</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LATTITUDE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LATTITUDE]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>LATTITUDE</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LONGITUDE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LONGITUDE]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>LONGITUDE</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WQUAL_DETAILS_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WQUAL_DETAILS_ID]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>WQUAL_DETAILS_ID</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total alkalinity_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total alkalinity_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>total alkalinity_value</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>carbonate_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[carbonate_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>carbonate_value</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nitrite as nitrogen_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nitrite as nitrogen_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>nitrite as nitrogen_value</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nitrate as nitrogen_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nitrate as nitrogen_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>nitrate as nitrogen_value</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ph_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ph_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>ph_value</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>bicarbonate_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[bicarbonate_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>bicarbonate_value</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total dissolved solids_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total dissolved solids_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>total dissolved solids_value</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>fluoride_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[fluoride_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>fluoride_value</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>total hardness_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[total hardness_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>total hardness_value</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>chloride_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[chloride_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>chloride_value</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>manganese_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[manganese_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>manganese_value</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iron_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[iron_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>iron_value</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sulphate_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sulphate_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>sulphate_value</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>calcium_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[calcium_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>calcium_value</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>sodium_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[sodium_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>sodium_value</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>potassium_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[potassium_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>potassium_value</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>magnesium_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[magnesium_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>magnesium_value</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>iron (total)_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[iron (total)_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>iron (total)_value</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>nitrite + nitrate as nitrogen_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[nitrite + nitrate as nitrogen_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>nitrite + nitrate as nitrogen_value</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ionic balance_value</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ionic balance_value]</local-name>
+            <parent-name>[well_analysis_full_no_geo_dups.csv]</parent-name>
+            <remote-alias>ionic balance_value</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Avg' caption='Lattitude' datatype='real' name='[LATTITUDE]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[LONGITUDE]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Well Id' datatype='integer' name='[WELL_ID]' role='dimension' type='ordinal' />
+      <column caption='Well Test Id' datatype='integer' name='[WELL_TEST_ID]' role='dimension' type='ordinal' />
+      <column caption='Wqual Details Id' datatype='integer' name='[WQUAL_DETAILS_ID]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='well_analysis_full_no_geo_dups.csv' datatype='table' name='[__tableau_internal_object_id__].[well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A]' role='measure' type='quantitative' />
+      <column caption='Bicarbonate Value' datatype='real' name='[bicarbonate_value]' role='measure' type='quantitative' />
+      <column caption='Calcium Value' datatype='real' name='[calcium_value]' role='measure' type='quantitative' />
+      <column caption='Carbonate Value' datatype='real' name='[carbonate_value]' role='measure' type='quantitative' />
+      <column caption='Chloride Value' datatype='real' name='[chloride_value]' role='measure' type='quantitative' />
+      <column caption='Fluoride Value' datatype='real' name='[fluoride_value]' role='measure' type='quantitative' />
+      <column caption='Geometry' datatype='string' name='[geometry]' role='dimension' type='nominal' />
+      <column caption='Ionic Balance Value' datatype='real' name='[ionic balance_value]' role='measure' type='quantitative' />
+      <column caption='Iron (Total) Value' datatype='real' name='[iron (total)_value]' role='measure' type='quantitative' />
+      <column caption='Iron Value' datatype='real' name='[iron_value]' role='measure' type='quantitative' />
+      <column caption='Magnesium Value' datatype='real' name='[magnesium_value]' role='measure' type='quantitative' />
+      <column caption='Manganese Value' datatype='real' name='[manganese_value]' role='measure' type='quantitative' />
+      <column caption='Nitrate As Nitrogen Value' datatype='real' name='[nitrate as nitrogen_value]' role='measure' type='quantitative' />
+      <column caption='Nitrite + Nitrate As Nitrogen Value' datatype='real' name='[nitrite + nitrate as nitrogen_value]' role='measure' type='quantitative' />
+      <column caption='Nitrite As Nitrogen Value' datatype='real' name='[nitrite as nitrogen_value]' role='measure' type='quantitative' />
+      <column caption='Ph Value' datatype='real' name='[ph_value]' role='measure' type='quantitative' />
+      <column caption='Potassium Value' datatype='real' name='[potassium_value]' role='measure' type='quantitative' />
+      <column caption='Sodium Value' datatype='real' name='[sodium_value]' role='measure' type='quantitative' />
+      <column caption='Sulphate Value' datatype='real' name='[sulphate_value]' role='measure' type='quantitative' />
+      <column caption='Total Alkalinity Value' datatype='real' name='[total alkalinity_value]' role='measure' type='quantitative' />
+      <column caption='Total Dissolved Solids Value' datatype='real' name='[total dissolved solids_value]' role='measure' type='quantitative' />
+      <column caption='Total Hardness Value' datatype='real' name='[total hardness_value]' role='measure' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='well_analysis_full_no_geo_dups.csv' id='well_analysis_full_no_geo_dups.csv_0406BACB68854CB5B673E932505D170A'>
+            <properties context=''>
+              <relation connection='textscan.13l1rqm1dnrbbu11rz9jr1wj8pvd' name='well_analysis_full_no_geo_dups.csv' table='[well_analysis_full_no_geo_dups#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='string' name='geometry' ordinal='0' />
+                  <column datatype='integer' name='WELL_ID' ordinal='1' />
+                  <column datatype='integer' name='WELL_TEST_ID' ordinal='2' />
+                  <column datatype='real' name='LATTITUDE' ordinal='3' />
+                  <column datatype='real' name='LONGITUDE' ordinal='4' />
+                  <column datatype='integer' name='WQUAL_DETAILS_ID' ordinal='5' />
+                  <column datatype='real' name='total alkalinity_value' ordinal='6' />
+                  <column datatype='real' name='carbonate_value' ordinal='7' />
+                  <column datatype='real' name='nitrite as nitrogen_value' ordinal='8' />
+                  <column datatype='real' name='nitrate as nitrogen_value' ordinal='9' />
+                  <column datatype='real' name='ph_value' ordinal='10' />
+                  <column datatype='real' name='bicarbonate_value' ordinal='11' />
+                  <column datatype='real' name='total dissolved solids_value' ordinal='12' />
+                  <column datatype='real' name='fluoride_value' ordinal='13' />
+                  <column datatype='real' name='total hardness_value' ordinal='14' />
+                  <column datatype='real' name='chloride_value' ordinal='15' />
+                  <column datatype='real' name='manganese_value' ordinal='16' />
+                  <column datatype='real' name='iron_value' ordinal='17' />
+                  <column datatype='real' name='sulphate_value' ordinal='18' />
+                  <column datatype='real' name='calcium_value' ordinal='19' />
+                  <column datatype='real' name='sodium_value' ordinal='20' />
+                  <column datatype='real' name='potassium_value' ordinal='21' />
+                  <column datatype='real' name='magnesium_value' ordinal='22' />
+                  <column datatype='real' name='iron (total)_value' ordinal='23' />
+                  <column datatype='real' name='nitrite + nitrate as nitrogen_value' ordinal='24' />
+                  <column datatype='real' name='ionic balance_value' ordinal='25' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='wells_sub_gpd_no_geo_dups' inline='true' name='federated.0gidjcg1jeh6r41b3fny60jda5kf' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='wells_sub_gpd_no_geo_dups' name='textscan.1xt7gkh0vpt3ld14g3erx03b4txq'>
+            <connection class='textscan' directory='C:/Users/dychi/Alberta Water Wells' filename='wells_sub_gpd_no_geo_dups.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1xt7gkh0vpt3ld14g3erx03b4txq' name='wells_sub_gpd_no_geo_dups.csv' table='[wells_sub_gpd_no_geo_dups#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='WELL_ID' ordinal='0' />
+            <column datatype='integer' name='WELL_TEST_ID' ordinal='1' />
+            <column datatype='real' name='LATTITUDE' ordinal='2' />
+            <column datatype='real' name='LONGITUDE' ordinal='3' />
+            <column datatype='integer' name='MODEL_PREDICTION' ordinal='4' />
+            <column datatype='string' name='geometry' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1xt7gkh0vpt3ld14g3erx03b4txq' name='wells_sub_gpd_no_geo_dups.csv' table='[wells_sub_gpd_no_geo_dups#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+            <column datatype='integer' name='WELL_ID' ordinal='0' />
+            <column datatype='integer' name='WELL_TEST_ID' ordinal='1' />
+            <column datatype='real' name='LATTITUDE' ordinal='2' />
+            <column datatype='real' name='LONGITUDE' ordinal='3' />
+            <column datatype='integer' name='MODEL_PREDICTION' ordinal='4' />
+            <column datatype='string' name='geometry' ordinal='5' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[wells_sub_gpd_no_geo_dups.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_GB&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_CA&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WELL_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WELL_ID]</local-name>
+            <parent-name>[wells_sub_gpd_no_geo_dups.csv]</parent-name>
+            <remote-alias>WELL_ID</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wells_sub_gpd_no_geo_dups.csv_2CC26FD41ED84E0E96EE35439F337193]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>WELL_TEST_ID</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[WELL_TEST_ID]</local-name>
+            <parent-name>[wells_sub_gpd_no_geo_dups.csv]</parent-name>
+            <remote-alias>WELL_TEST_ID</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wells_sub_gpd_no_geo_dups.csv_2CC26FD41ED84E0E96EE35439F337193]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LATTITUDE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LATTITUDE]</local-name>
+            <parent-name>[wells_sub_gpd_no_geo_dups.csv]</parent-name>
+            <remote-alias>LATTITUDE</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wells_sub_gpd_no_geo_dups.csv_2CC26FD41ED84E0E96EE35439F337193]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LONGITUDE</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LONGITUDE]</local-name>
+            <parent-name>[wells_sub_gpd_no_geo_dups.csv]</parent-name>
+            <remote-alias>LONGITUDE</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wells_sub_gpd_no_geo_dups.csv_2CC26FD41ED84E0E96EE35439F337193]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MODEL_PREDICTION</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MODEL_PREDICTION]</local-name>
+            <parent-name>[wells_sub_gpd_no_geo_dups.csv]</parent-name>
+            <remote-alias>MODEL_PREDICTION</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wells_sub_gpd_no_geo_dups.csv_2CC26FD41ED84E0E96EE35439F337193]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>geometry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[geometry]</local-name>
+            <parent-name>[wells_sub_gpd_no_geo_dups.csv]</parent-name>
+            <remote-alias>geometry</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RGB' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[wells_sub_gpd_no_geo_dups.csv_2CC26FD41ED84E0E96EE35439F337193]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Avg' caption='Lattitude' datatype='real' name='[LATTITUDE]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column aggregation='Avg' caption='Longitude' datatype='real' name='[LONGITUDE]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+      <column caption='Model Prediction' datatype='integer' name='[MODEL_PREDICTION]' role='measure' type='quantitative' />
+      <column caption='Well Id' datatype='integer' name='[WELL_ID]' role='dimension' type='ordinal' />
+      <column caption='Well Test Id' datatype='integer' name='[WELL_TEST_ID]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='wells_sub_gpd_no_geo_dups.csv' datatype='table' name='[__tableau_internal_object_id__].[wells_sub_gpd_no_geo_dups.csv_2CC26FD41ED84E0E96EE35439F337193]' role='measure' type='quantitative' />
+      <column caption='Geometry' datatype='string' name='[geometry]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Canada&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='wells_sub_gpd_no_geo_dups.csv' id='wells_sub_gpd_no_geo_dups.csv_2CC26FD41ED84E0E96EE35439F337193'>
+            <properties context=''>
+              <relation connection='textscan.1xt7gkh0vpt3ld14g3erx03b4txq' name='wells_sub_gpd_no_geo_dups.csv' table='[wells_sub_gpd_no_geo_dups#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_CA' separator=','>
+                  <column datatype='integer' name='WELL_ID' ordinal='0' />
+                  <column datatype='integer' name='WELL_TEST_ID' ordinal='1' />
+                  <column datatype='real' name='LATTITUDE' ordinal='2' />
+                  <column datatype='real' name='LONGITUDE' ordinal='3' />
+                  <column datatype='integer' name='MODEL_PREDICTION' ordinal='4' />
+                  <column datatype='string' name='geometry' ordinal='5' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='&apos;Fair-Poor&apos; Smell Map'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='wells_sub_gpd_no_geo_dups' name='federated.0gidjcg1jeh6r41b3fny60jda5kf' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.0gidjcg1jeh6r41b3fny60jda5kf'>
+            <column aggregation='Avg' caption='Lattitude' datatype='real' name='[LATTITUDE]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' caption='Longitude' datatype='real' name='[LONGITUDE]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column caption='Model Prediction' datatype='integer' name='[MODEL_PREDICTION]' role='measure' type='quantitative' />
+            <column-instance column='[LATTITUDE]' derivation='None' name='[none:LATTITUDE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[LONGITUDE]' derivation='None' name='[none:LONGITUDE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[MODEL_PREDICTION]' derivation='None' name='[none:MODEL_PREDICTION:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.0gidjcg1jeh6r41b3fny60jda5kf].[none:LONGITUDE:qk]' field-type='quantitative' max='-12305817.526525419' min='-12698389.007074174' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.0gidjcg1jeh6r41b3fny60jda5kf].[none:LATTITUDE:qk]' field-type='quantitative' max='6724025.9616258219' min='6558349.8847183902' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.0gidjcg1jeh6r41b3fny60jda5kf].[none:MODEL_PREDICTION:qk]' reverse='true' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#9e3d22</color>
+                <color>#ad4523</color>
+                <color>#bc4d23</color>
+                <color>#cb5522</color>
+                <color>#d95e21</color>
+                <color>#e76820</color>
+                <color>#ee7725</color>
+                <color>#f58a30</color>
+                <color>#fa9e3f</color>
+                <color>#fdb053</color>
+                <color>#ffc171</color>
+                <color>#d9d5c9</color>
+                <color>#d7d7d7</color>
+                <color>#d6d6d6</color>
+                <color>#d5d5d5</color>
+                <color>#d4d4d4</color>
+                <color>#d3d3d3</color>
+                <color>#d1d1d1</color>
+                <color>#d0d0d0</color>
+                <color>#cfcfcf</color>
+                <color>#cecece</color>
+                <color>#cdcdcd</color>
+                <color>#cccccc</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='tunnel-service-link-track-case' value='true' />
+            <format attr='enabled' id='tunnel-street_limited-case' value='true' />
+            <format attr='enabled' id='tunnel-street-case' value='true' />
+            <format attr='enabled' id='tunnel-secondary-tertiary-case' value='true' />
+            <format attr='enabled' id='tunnel-primary-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link' value='true' />
+            <format attr='enabled' id='tunnel-service-link-track' value='true' />
+            <format attr='enabled' id='tunnel-street_limited' value='true' />
+            <format attr='enabled' id='tunnel-street' value='true' />
+            <format attr='enabled' id='tunnel-tertiary' value='true' />
+            <format attr='enabled' id='tunnel-secondary' value='true' />
+            <format attr='enabled' id='tunnel-primary' value='true' />
+            <format attr='enabled' id='tunnel-trunk' value='true' />
+            <format attr='enabled' id='tunnel-motorway' value='true' />
+            <format attr='enabled' id='road-street-low' value='true' />
+            <format attr='enabled' id='road-street_limited-low' value='true' />
+            <format attr='enabled' id='road-pedestrian-case' value='true' />
+            <format attr='enabled' id='road-service-link-track-case' value='true' />
+            <format attr='enabled' id='road-street_limited-case' value='true' />
+            <format attr='enabled' id='road-street-case' value='true' />
+            <format attr='enabled' id='road-tertiary-case' value='true' />
+            <format attr='enabled' id='road-secondary-case' value='true' />
+            <format attr='enabled' id='road-primary-case' value='true' />
+            <format attr='enabled' id='road-motorway_link-case' value='true' />
+            <format attr='enabled' id='road-trunk_link-case' value='true' />
+            <format attr='enabled' id='road-trunk-case' value='true' />
+            <format attr='enabled' id='road-motorway-case' value='true' />
+            <format attr='enabled' id='road-trunk_link' value='true' />
+            <format attr='enabled' id='road-motorway_link' value='true' />
+            <format attr='enabled' id='road-path' value='true' />
+            <format attr='enabled' id='road-pedestrian' value='true' />
+            <format attr='enabled' id='road-polygon' value='true' />
+            <format attr='enabled' id='road-service-link-track' value='true' />
+            <format attr='enabled' id='road-street_limited' value='true' />
+            <format attr='enabled' id='road-street' value='true' />
+            <format attr='enabled' id='road-tertiary' value='true' />
+            <format attr='enabled' id='road-secondary' value='true' />
+            <format attr='enabled' id='road-primary' value='true' />
+            <format attr='enabled' id='road-trunk' value='true' />
+            <format attr='enabled' id='road-motorway' value='true' />
+            <format attr='enabled' id='road-rail' value='true' />
+            <format attr='enabled' id='road-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-street-low' value='true' />
+            <format attr='enabled' id='bridge-street_limited-low' value='true' />
+            <format attr='enabled' id='bridge-pedestrian-case' value='true' />
+            <format attr='enabled' id='bridge-service-link-track-case' value='true' />
+            <format attr='enabled' id='bridge-street_limited-case' value='true' />
+            <format attr='enabled' id='bridge-street-case' value='true' />
+            <format attr='enabled' id='bridge-tertiary-case' value='true' />
+            <format attr='enabled' id='bridge-secondary-case' value='true' />
+            <format attr='enabled' id='bridge-primary-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link' value='true' />
+            <format attr='enabled' id='bridge-motorway_link' value='true' />
+            <format attr='enabled' id='bridge-path' value='true' />
+            <format attr='enabled' id='bridge-pedestrian' value='true' />
+            <format attr='enabled' id='bridge-service-link-track' value='true' />
+            <format attr='enabled' id='bridge-street_limited' value='true' />
+            <format attr='enabled' id='bridge-street' value='true' />
+            <format attr='enabled' id='bridge-tertiary' value='true' />
+            <format attr='enabled' id='bridge-secondary' value='true' />
+            <format attr='enabled' id='bridge-primary' value='true' />
+            <format attr='enabled' id='bridge-trunk' value='true' />
+            <format attr='enabled' id='bridge-motorway' value='true' />
+            <format attr='enabled' id='bridge-rail' value='true' />
+            <format attr='enabled' id='bridge-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2' value='true' />
+            <format attr='enabled' id='bridge-trunk-2' value='true' />
+            <format attr='enabled' id='bridge-motorway-2' value='true' />
+            <format attr='enabled' id='road-shields-2-white' value='true' />
+            <format attr='enabled' id='road-shields-2-black' value='true' />
+            <format attr='enabled' id='road-shields-1-white' value='true' />
+            <format attr='enabled' id='road-shields-1-black' value='true' />
+            <format attr='enabled' id='road-label-small' value='true' />
+            <format attr='enabled' id='road-label-big' value='true' />
+            <format attr='enabled' id='place-village' value='true' />
+            <format attr='enabled' id='place-town' value='true' />
+            <format attr='enabled' id='place-islands' value='true' />
+            <format attr='enabled' id='place-islands-2' value='true' />
+            <format attr='enabled' id='place-city-sm' value='true' />
+            <format attr='enabled' id='place-city-md-s' value='true' />
+            <format attr='enabled' id='place-city-md-n' value='true' />
+            <format attr='enabled' id='place-city-lg-s' value='true' />
+            <format attr='enabled' id='place-city-lg-n' value='true' />
+            <format attr='enabled' id='place-capital-s' value='true' />
+            <format attr='enabled' id='place-capital-n' value='true' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0gidjcg1jeh6r41b3fny60jda5kf].[none:MODEL_PREDICTION:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='188' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0gidjcg1jeh6r41b3fny60jda5kf].[none:LATTITUDE:qk]</rows>
+        <cols>[federated.0gidjcg1jeh6r41b3fny60jda5kf].[none:LONGITUDE:qk]</cols>
+      </table>
+      <simple-id uuid='{38666726-949E-4658-AC34-13F020C10CD4}' />
+    </worksheet>
+    <worksheet name='Bicarbonate Map'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='well_analysis_full_no_geo_dups' name='federated.1p2xpxi1awatix1bx8h9311lf8gm' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1p2xpxi1awatix1bx8h9311lf8gm'>
+            <column aggregation='Avg' caption='Lattitude' datatype='real' name='[LATTITUDE]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' caption='Longitude' datatype='real' name='[LONGITUDE]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column caption='Bicarbonate Value' datatype='real' name='[bicarbonate_value]' role='measure' type='quantitative' />
+            <column-instance column='[LATTITUDE]' derivation='None' name='[none:LATTITUDE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[LONGITUDE]' derivation='None' name='[none:LONGITUDE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[bicarbonate_value]' derivation='None' name='[none:bicarbonate_value:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:LONGITUDE:qk]' field-type='quantitative' max='-12565556.960417325' min='-12654503.444798654' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:LATTITUDE:qk]' field-type='quantitative' max='6657751.2944849022' min='6620213.4056744156' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' field='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:bicarbonate_value:qk]' max='1000.0' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#bcbcbc</color>
+                <color>#c0c0c0</color>
+                <color>#c5c5c5</color>
+                <color>#cacaca</color>
+                <color>#cfcfcf</color>
+                <color>#d4d4d4</color>
+                <color>#d9d9d9</color>
+                <color>#b4c0cb</color>
+                <color>#92a9be</color>
+                <color>#7493b1</color>
+                <color>#587fa4</color>
+                <color>#406d97</color>
+                <color>#2b5c8a</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='tunnel-service-link-track-case' value='true' />
+            <format attr='enabled' id='tunnel-street_limited-case' value='true' />
+            <format attr='enabled' id='tunnel-street-case' value='true' />
+            <format attr='enabled' id='tunnel-secondary-tertiary-case' value='true' />
+            <format attr='enabled' id='tunnel-primary-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link' value='true' />
+            <format attr='enabled' id='tunnel-service-link-track' value='true' />
+            <format attr='enabled' id='tunnel-street_limited' value='true' />
+            <format attr='enabled' id='tunnel-street' value='true' />
+            <format attr='enabled' id='tunnel-tertiary' value='true' />
+            <format attr='enabled' id='tunnel-secondary' value='true' />
+            <format attr='enabled' id='tunnel-primary' value='true' />
+            <format attr='enabled' id='tunnel-trunk' value='true' />
+            <format attr='enabled' id='tunnel-motorway' value='true' />
+            <format attr='enabled' id='road-street-low' value='true' />
+            <format attr='enabled' id='road-street_limited-low' value='true' />
+            <format attr='enabled' id='road-pedestrian-case' value='true' />
+            <format attr='enabled' id='road-service-link-track-case' value='true' />
+            <format attr='enabled' id='road-street_limited-case' value='true' />
+            <format attr='enabled' id='road-street-case' value='true' />
+            <format attr='enabled' id='road-tertiary-case' value='true' />
+            <format attr='enabled' id='road-secondary-case' value='true' />
+            <format attr='enabled' id='road-primary-case' value='true' />
+            <format attr='enabled' id='road-motorway_link-case' value='true' />
+            <format attr='enabled' id='road-trunk_link-case' value='true' />
+            <format attr='enabled' id='road-trunk-case' value='true' />
+            <format attr='enabled' id='road-motorway-case' value='true' />
+            <format attr='enabled' id='road-trunk_link' value='true' />
+            <format attr='enabled' id='road-motorway_link' value='true' />
+            <format attr='enabled' id='road-path' value='true' />
+            <format attr='enabled' id='road-pedestrian' value='true' />
+            <format attr='enabled' id='road-polygon' value='true' />
+            <format attr='enabled' id='road-service-link-track' value='true' />
+            <format attr='enabled' id='road-street_limited' value='true' />
+            <format attr='enabled' id='road-street' value='true' />
+            <format attr='enabled' id='road-tertiary' value='true' />
+            <format attr='enabled' id='road-secondary' value='true' />
+            <format attr='enabled' id='road-primary' value='true' />
+            <format attr='enabled' id='road-trunk' value='true' />
+            <format attr='enabled' id='road-motorway' value='true' />
+            <format attr='enabled' id='road-rail' value='true' />
+            <format attr='enabled' id='road-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-street-low' value='true' />
+            <format attr='enabled' id='bridge-street_limited-low' value='true' />
+            <format attr='enabled' id='bridge-pedestrian-case' value='true' />
+            <format attr='enabled' id='bridge-service-link-track-case' value='true' />
+            <format attr='enabled' id='bridge-street_limited-case' value='true' />
+            <format attr='enabled' id='bridge-street-case' value='true' />
+            <format attr='enabled' id='bridge-tertiary-case' value='true' />
+            <format attr='enabled' id='bridge-secondary-case' value='true' />
+            <format attr='enabled' id='bridge-primary-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link' value='true' />
+            <format attr='enabled' id='bridge-motorway_link' value='true' />
+            <format attr='enabled' id='bridge-path' value='true' />
+            <format attr='enabled' id='bridge-pedestrian' value='true' />
+            <format attr='enabled' id='bridge-service-link-track' value='true' />
+            <format attr='enabled' id='bridge-street_limited' value='true' />
+            <format attr='enabled' id='bridge-street' value='true' />
+            <format attr='enabled' id='bridge-tertiary' value='true' />
+            <format attr='enabled' id='bridge-secondary' value='true' />
+            <format attr='enabled' id='bridge-primary' value='true' />
+            <format attr='enabled' id='bridge-trunk' value='true' />
+            <format attr='enabled' id='bridge-motorway' value='true' />
+            <format attr='enabled' id='bridge-rail' value='true' />
+            <format attr='enabled' id='bridge-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2' value='true' />
+            <format attr='enabled' id='bridge-trunk-2' value='true' />
+            <format attr='enabled' id='bridge-motorway-2' value='true' />
+            <format attr='enabled' id='road-shields-2-white' value='true' />
+            <format attr='enabled' id='road-shields-2-black' value='true' />
+            <format attr='enabled' id='road-shields-1-white' value='true' />
+            <format attr='enabled' id='road-shields-1-black' value='true' />
+            <format attr='enabled' id='road-label-small' value='true' />
+            <format attr='enabled' id='road-label-big' value='true' />
+            <format attr='enabled' id='place-village' value='true' />
+            <format attr='enabled' id='place-town' value='true' />
+            <format attr='enabled' id='place-islands' value='true' />
+            <format attr='enabled' id='place-islands-2' value='true' />
+            <format attr='enabled' id='place-city-sm' value='true' />
+            <format attr='enabled' id='place-city-md-s' value='true' />
+            <format attr='enabled' id='place-city-md-n' value='true' />
+            <format attr='enabled' id='place-city-lg-s' value='true' />
+            <format attr='enabled' id='place-city-lg-n' value='true' />
+            <format attr='enabled' id='place-capital-s' value='true' />
+            <format attr='enabled' id='place-capital-n' value='true' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:bicarbonate_value:qk]' />
+              <geometry column='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.097955800592899323' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:LATTITUDE:qk]</rows>
+        <cols>[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:LONGITUDE:qk]</cols>
+      </table>
+      <simple-id uuid='{4FF43E60-0D14-4012-8D8F-F70AFD26B440}' />
+    </worksheet>
+    <worksheet name='Fluoride Map'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='well_analysis_full_no_geo_dups' name='federated.1p2xpxi1awatix1bx8h9311lf8gm' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1p2xpxi1awatix1bx8h9311lf8gm'>
+            <column aggregation='Avg' caption='Lattitude' datatype='real' name='[LATTITUDE]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' caption='Longitude' datatype='real' name='[LONGITUDE]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column caption='Fluoride Value' datatype='real' name='[fluoride_value]' role='measure' type='quantitative' />
+            <column-instance column='[LATTITUDE]' derivation='None' name='[none:LATTITUDE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[LONGITUDE]' derivation='None' name='[none:LONGITUDE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[fluoride_value]' derivation='None' name='[none:fluoride_value:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:LONGITUDE:qk]' field-type='quantitative' max='-12157198.419073284' min='-12843126.012422137' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:LATTITUDE:qk]' field-type='quantitative' max='6937796.4156979509' min='6649857.5765289217' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' center='1.5' field='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:fluoride_value:qk]' symmetric='false' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#dedede</color>
+                <color>#dddddd</color>
+                <color>#dcdcdc</color>
+                <color>#dbdbdb</color>
+                <color>#dadada</color>
+                <color>#d9d9d9</color>
+                <color>#d9d9d9</color>
+                <color>#d1aeae</color>
+                <color>#c98686</color>
+                <color>#c16060</color>
+                <color>#b93d3d</color>
+                <color>#b11d1d</color>
+                <color>#aa0000</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='tunnel-service-link-track-case' value='true' />
+            <format attr='enabled' id='tunnel-street_limited-case' value='true' />
+            <format attr='enabled' id='tunnel-street-case' value='true' />
+            <format attr='enabled' id='tunnel-secondary-tertiary-case' value='true' />
+            <format attr='enabled' id='tunnel-primary-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link' value='true' />
+            <format attr='enabled' id='tunnel-service-link-track' value='true' />
+            <format attr='enabled' id='tunnel-street_limited' value='true' />
+            <format attr='enabled' id='tunnel-street' value='true' />
+            <format attr='enabled' id='tunnel-tertiary' value='true' />
+            <format attr='enabled' id='tunnel-secondary' value='true' />
+            <format attr='enabled' id='tunnel-primary' value='true' />
+            <format attr='enabled' id='tunnel-trunk' value='true' />
+            <format attr='enabled' id='tunnel-motorway' value='true' />
+            <format attr='enabled' id='road-street-low' value='true' />
+            <format attr='enabled' id='road-street_limited-low' value='true' />
+            <format attr='enabled' id='road-pedestrian-case' value='true' />
+            <format attr='enabled' id='road-service-link-track-case' value='true' />
+            <format attr='enabled' id='road-street_limited-case' value='true' />
+            <format attr='enabled' id='road-street-case' value='true' />
+            <format attr='enabled' id='road-tertiary-case' value='true' />
+            <format attr='enabled' id='road-secondary-case' value='true' />
+            <format attr='enabled' id='road-primary-case' value='true' />
+            <format attr='enabled' id='road-motorway_link-case' value='true' />
+            <format attr='enabled' id='road-trunk_link-case' value='true' />
+            <format attr='enabled' id='road-trunk-case' value='true' />
+            <format attr='enabled' id='road-motorway-case' value='true' />
+            <format attr='enabled' id='road-trunk_link' value='true' />
+            <format attr='enabled' id='road-motorway_link' value='true' />
+            <format attr='enabled' id='road-path' value='true' />
+            <format attr='enabled' id='road-pedestrian' value='true' />
+            <format attr='enabled' id='road-polygon' value='true' />
+            <format attr='enabled' id='road-service-link-track' value='true' />
+            <format attr='enabled' id='road-street_limited' value='true' />
+            <format attr='enabled' id='road-street' value='true' />
+            <format attr='enabled' id='road-tertiary' value='true' />
+            <format attr='enabled' id='road-secondary' value='true' />
+            <format attr='enabled' id='road-primary' value='true' />
+            <format attr='enabled' id='road-trunk' value='true' />
+            <format attr='enabled' id='road-motorway' value='true' />
+            <format attr='enabled' id='road-rail' value='true' />
+            <format attr='enabled' id='road-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-street-low' value='true' />
+            <format attr='enabled' id='bridge-street_limited-low' value='true' />
+            <format attr='enabled' id='bridge-pedestrian-case' value='true' />
+            <format attr='enabled' id='bridge-service-link-track-case' value='true' />
+            <format attr='enabled' id='bridge-street_limited-case' value='true' />
+            <format attr='enabled' id='bridge-street-case' value='true' />
+            <format attr='enabled' id='bridge-tertiary-case' value='true' />
+            <format attr='enabled' id='bridge-secondary-case' value='true' />
+            <format attr='enabled' id='bridge-primary-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link' value='true' />
+            <format attr='enabled' id='bridge-motorway_link' value='true' />
+            <format attr='enabled' id='bridge-path' value='true' />
+            <format attr='enabled' id='bridge-pedestrian' value='true' />
+            <format attr='enabled' id='bridge-service-link-track' value='true' />
+            <format attr='enabled' id='bridge-street_limited' value='true' />
+            <format attr='enabled' id='bridge-street' value='true' />
+            <format attr='enabled' id='bridge-tertiary' value='true' />
+            <format attr='enabled' id='bridge-secondary' value='true' />
+            <format attr='enabled' id='bridge-primary' value='true' />
+            <format attr='enabled' id='bridge-trunk' value='true' />
+            <format attr='enabled' id='bridge-motorway' value='true' />
+            <format attr='enabled' id='bridge-rail' value='true' />
+            <format attr='enabled' id='bridge-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2' value='true' />
+            <format attr='enabled' id='bridge-trunk-2' value='true' />
+            <format attr='enabled' id='bridge-motorway-2' value='true' />
+            <format attr='enabled' id='road-shields-2-white' value='true' />
+            <format attr='enabled' id='road-shields-2-black' value='true' />
+            <format attr='enabled' id='road-shields-1-white' value='true' />
+            <format attr='enabled' id='road-shields-1-black' value='true' />
+            <format attr='enabled' id='road-label-small' value='true' />
+            <format attr='enabled' id='road-label-big' value='true' />
+            <format attr='enabled' id='place-village' value='true' />
+            <format attr='enabled' id='place-town' value='true' />
+            <format attr='enabled' id='place-islands' value='true' />
+            <format attr='enabled' id='place-islands-2' value='true' />
+            <format attr='enabled' id='place-city-sm' value='true' />
+            <format attr='enabled' id='place-city-md-s' value='true' />
+            <format attr='enabled' id='place-city-md-n' value='true' />
+            <format attr='enabled' id='place-city-lg-s' value='true' />
+            <format attr='enabled' id='place-city-lg-n' value='true' />
+            <format attr='enabled' id='place-capital-s' value='true' />
+            <format attr='enabled' id='place-capital-n' value='true' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:fluoride_value:qk]' />
+              <geometry column='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.097955800592899323' />
+                <format attr='has-stroke' value='false' />
+                <format attr='mark-transparency' value='198' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:LATTITUDE:qk]</rows>
+        <cols>[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:LONGITUDE:qk]</cols>
+      </table>
+      <simple-id uuid='{BCE2AEE9-880A-47AC-8D12-06F599EA3C8F}' />
+    </worksheet>
+    <worksheet name='Sulphate Map'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='well_analysis_full_no_geo_dups' name='federated.1p2xpxi1awatix1bx8h9311lf8gm' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1p2xpxi1awatix1bx8h9311lf8gm'>
+            <column aggregation='Avg' caption='Lattitude' datatype='real' name='[LATTITUDE]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' caption='Longitude' datatype='real' name='[LONGITUDE]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column-instance column='[LATTITUDE]' derivation='None' name='[none:LATTITUDE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[LONGITUDE]' derivation='None' name='[none:LONGITUDE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[sulphate_value]' derivation='None' name='[none:sulphate_value:qk]' pivot='key' type='quantitative' />
+            <column caption='Sulphate Value' datatype='real' name='[sulphate_value]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:LONGITUDE:qk]' field-type='quantitative' max='-12106449.512611477' min='-12793059.438882198' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:LATTITUDE:qk]' field-type='quantitative' max='6909023.6890742891' min='6619255.214830514' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' center='500.0' field='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:sulphate_value:qk]' max='1000.0' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#c2c2c2</color>
+                <color>#c5c5c5</color>
+                <color>#c9c9c9</color>
+                <color>#cdcdcd</color>
+                <color>#d1d1d1</color>
+                <color>#d5d5d5</color>
+                <color>#d9d9d9</color>
+                <color>#d1aeae</color>
+                <color>#c98686</color>
+                <color>#c16060</color>
+                <color>#b93d3d</color>
+                <color>#b11d1d</color>
+                <color>#aa0000</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='tunnel-service-link-track-case' value='true' />
+            <format attr='enabled' id='tunnel-street_limited-case' value='true' />
+            <format attr='enabled' id='tunnel-street-case' value='true' />
+            <format attr='enabled' id='tunnel-secondary-tertiary-case' value='true' />
+            <format attr='enabled' id='tunnel-primary-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link' value='true' />
+            <format attr='enabled' id='tunnel-service-link-track' value='true' />
+            <format attr='enabled' id='tunnel-street_limited' value='true' />
+            <format attr='enabled' id='tunnel-street' value='true' />
+            <format attr='enabled' id='tunnel-tertiary' value='true' />
+            <format attr='enabled' id='tunnel-secondary' value='true' />
+            <format attr='enabled' id='tunnel-primary' value='true' />
+            <format attr='enabled' id='tunnel-trunk' value='true' />
+            <format attr='enabled' id='tunnel-motorway' value='true' />
+            <format attr='enabled' id='road-street-low' value='true' />
+            <format attr='enabled' id='road-street_limited-low' value='true' />
+            <format attr='enabled' id='road-pedestrian-case' value='true' />
+            <format attr='enabled' id='road-service-link-track-case' value='true' />
+            <format attr='enabled' id='road-street_limited-case' value='true' />
+            <format attr='enabled' id='road-street-case' value='true' />
+            <format attr='enabled' id='road-tertiary-case' value='true' />
+            <format attr='enabled' id='road-secondary-case' value='true' />
+            <format attr='enabled' id='road-primary-case' value='true' />
+            <format attr='enabled' id='road-motorway_link-case' value='true' />
+            <format attr='enabled' id='road-trunk_link-case' value='true' />
+            <format attr='enabled' id='road-trunk-case' value='true' />
+            <format attr='enabled' id='road-motorway-case' value='true' />
+            <format attr='enabled' id='road-trunk_link' value='true' />
+            <format attr='enabled' id='road-motorway_link' value='true' />
+            <format attr='enabled' id='road-path' value='true' />
+            <format attr='enabled' id='road-pedestrian' value='true' />
+            <format attr='enabled' id='road-polygon' value='true' />
+            <format attr='enabled' id='road-service-link-track' value='true' />
+            <format attr='enabled' id='road-street_limited' value='true' />
+            <format attr='enabled' id='road-street' value='true' />
+            <format attr='enabled' id='road-tertiary' value='true' />
+            <format attr='enabled' id='road-secondary' value='true' />
+            <format attr='enabled' id='road-primary' value='true' />
+            <format attr='enabled' id='road-trunk' value='true' />
+            <format attr='enabled' id='road-motorway' value='true' />
+            <format attr='enabled' id='road-rail' value='true' />
+            <format attr='enabled' id='road-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-street-low' value='true' />
+            <format attr='enabled' id='bridge-street_limited-low' value='true' />
+            <format attr='enabled' id='bridge-pedestrian-case' value='true' />
+            <format attr='enabled' id='bridge-service-link-track-case' value='true' />
+            <format attr='enabled' id='bridge-street_limited-case' value='true' />
+            <format attr='enabled' id='bridge-street-case' value='true' />
+            <format attr='enabled' id='bridge-tertiary-case' value='true' />
+            <format attr='enabled' id='bridge-secondary-case' value='true' />
+            <format attr='enabled' id='bridge-primary-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link' value='true' />
+            <format attr='enabled' id='bridge-motorway_link' value='true' />
+            <format attr='enabled' id='bridge-path' value='true' />
+            <format attr='enabled' id='bridge-pedestrian' value='true' />
+            <format attr='enabled' id='bridge-service-link-track' value='true' />
+            <format attr='enabled' id='bridge-street_limited' value='true' />
+            <format attr='enabled' id='bridge-street' value='true' />
+            <format attr='enabled' id='bridge-tertiary' value='true' />
+            <format attr='enabled' id='bridge-secondary' value='true' />
+            <format attr='enabled' id='bridge-primary' value='true' />
+            <format attr='enabled' id='bridge-trunk' value='true' />
+            <format attr='enabled' id='bridge-motorway' value='true' />
+            <format attr='enabled' id='bridge-rail' value='true' />
+            <format attr='enabled' id='bridge-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2' value='true' />
+            <format attr='enabled' id='bridge-trunk-2' value='true' />
+            <format attr='enabled' id='bridge-motorway-2' value='true' />
+            <format attr='enabled' id='road-shields-2-white' value='true' />
+            <format attr='enabled' id='road-shields-2-black' value='true' />
+            <format attr='enabled' id='road-shields-1-white' value='true' />
+            <format attr='enabled' id='road-shields-1-black' value='true' />
+            <format attr='enabled' id='road-label-small' value='true' />
+            <format attr='enabled' id='road-label-big' value='true' />
+            <format attr='enabled' id='place-village' value='true' />
+            <format attr='enabled' id='place-town' value='true' />
+            <format attr='enabled' id='place-islands' value='true' />
+            <format attr='enabled' id='place-islands-2' value='true' />
+            <format attr='enabled' id='place-city-sm' value='true' />
+            <format attr='enabled' id='place-city-md-s' value='true' />
+            <format attr='enabled' id='place-city-md-n' value='true' />
+            <format attr='enabled' id='place-city-lg-s' value='true' />
+            <format attr='enabled' id='place-city-lg-n' value='true' />
+            <format attr='enabled' id='place-capital-s' value='true' />
+            <format attr='enabled' id='place-capital-n' value='true' />
+            <format attr='enabled' id='marine-label-sm-ln' value='true' />
+            <format attr='enabled' id='marine-label-sm-pt' value='true' />
+            <format attr='enabled' id='marine-label-md-ln' value='true' />
+            <format attr='enabled' id='marine-label-md-pt' value='true' />
+            <format attr='enabled' id='marine-label-lg-ln' value='true' />
+            <format attr='enabled' id='marine-label-lg-pt' value='true' />
+            <format attr='enabled' id='water-label' value='true' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:sulphate_value:qk]' />
+              <geometry column='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.097955800592899323' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:LATTITUDE:qk]</rows>
+        <cols>[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:LONGITUDE:qk]</cols>
+      </table>
+      <simple-id uuid='{2DD102A0-6FE1-4784-9354-512FE0B7C371}' />
+    </worksheet>
+    <worksheet name='Total Dissolved Solids'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run><![CDATA[<Sheet Name> Values above the Aesthetic Objective of 500 mg/L  Coloured Red]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='well_analysis_full_no_geo_dups' name='federated.1p2xpxi1awatix1bx8h9311lf8gm' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1p2xpxi1awatix1bx8h9311lf8gm'>
+            <column aggregation='Avg' caption='Lattitude' datatype='real' name='[LATTITUDE]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+            <column aggregation='Avg' caption='Longitude' datatype='real' name='[LONGITUDE]' role='measure' semantic-role='[Geographical].[Longitude]' type='quantitative' />
+            <column-instance column='[LATTITUDE]' derivation='None' name='[none:LATTITUDE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[LONGITUDE]' derivation='None' name='[none:LONGITUDE:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[total dissolved solids_value]' derivation='None' name='[none:total dissolved solids_value:qk]' pivot='key' type='quantitative' />
+            <column caption='Total Dissolved Solids Value' datatype='real' name='[total dissolved solids_value]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:LONGITUDE:qk]' field-type='quantitative' max='-12489142.606341723' min='-12656004.689173456' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:LATTITUDE:qk]' field-type='quantitative' max='6678991.4072179543' min='6608570.9700799286' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='mark'>
+            <encoding attr='color' center='500.0' field='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:total dissolved solids_value:qk]' max='2000.0' reverse='true' type='custom-interpolated'>
+              <color-palette custom='true' name='' type='ordered-diverging'>
+                <color>#9e3d22</color>
+                <color>#a7513a</color>
+                <color>#b16854</color>
+                <color>#bb8171</color>
+                <color>#c59c91</color>
+                <color>#cfb9b4</color>
+                <color>#d9d9d9</color>
+                <color>#b4c0cb</color>
+                <color>#92a9be</color>
+                <color>#7493b1</color>
+                <color>#587fa4</color>
+                <color>#406d97</color>
+                <color>#2b5c8a</color>
+              </color-palette>
+            </encoding>
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='place-village' value='true' />
+            <format attr='enabled' id='place-town' value='true' />
+            <format attr='enabled' id='place-islands' value='true' />
+            <format attr='enabled' id='place-islands-2' value='true' />
+            <format attr='enabled' id='place-city-sm' value='true' />
+            <format attr='enabled' id='place-city-md-s' value='true' />
+            <format attr='enabled' id='place-city-md-n' value='true' />
+            <format attr='enabled' id='place-city-lg-s' value='true' />
+            <format attr='enabled' id='place-city-lg-n' value='true' />
+            <format attr='enabled' id='place-capital-s' value='true' />
+            <format attr='enabled' id='place-capital-n' value='true' />
+            <format attr='enabled' id='tunnel-service-link-track-case' value='true' />
+            <format attr='enabled' id='tunnel-street_limited-case' value='true' />
+            <format attr='enabled' id='tunnel-street-case' value='true' />
+            <format attr='enabled' id='tunnel-secondary-tertiary-case' value='true' />
+            <format attr='enabled' id='tunnel-primary-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk-case' value='true' />
+            <format attr='enabled' id='tunnel-motorway-case' value='true' />
+            <format attr='enabled' id='tunnel-trunk_link' value='true' />
+            <format attr='enabled' id='tunnel-motorway_link' value='true' />
+            <format attr='enabled' id='tunnel-service-link-track' value='true' />
+            <format attr='enabled' id='tunnel-street_limited' value='true' />
+            <format attr='enabled' id='tunnel-street' value='true' />
+            <format attr='enabled' id='tunnel-tertiary' value='true' />
+            <format attr='enabled' id='tunnel-secondary' value='true' />
+            <format attr='enabled' id='tunnel-primary' value='true' />
+            <format attr='enabled' id='tunnel-trunk' value='true' />
+            <format attr='enabled' id='tunnel-motorway' value='true' />
+            <format attr='enabled' id='road-street-low' value='true' />
+            <format attr='enabled' id='road-street_limited-low' value='true' />
+            <format attr='enabled' id='road-pedestrian-case' value='true' />
+            <format attr='enabled' id='road-service-link-track-case' value='true' />
+            <format attr='enabled' id='road-street_limited-case' value='true' />
+            <format attr='enabled' id='road-street-case' value='true' />
+            <format attr='enabled' id='road-tertiary-case' value='true' />
+            <format attr='enabled' id='road-secondary-case' value='true' />
+            <format attr='enabled' id='road-primary-case' value='true' />
+            <format attr='enabled' id='road-motorway_link-case' value='true' />
+            <format attr='enabled' id='road-trunk_link-case' value='true' />
+            <format attr='enabled' id='road-trunk-case' value='true' />
+            <format attr='enabled' id='road-motorway-case' value='true' />
+            <format attr='enabled' id='road-trunk_link' value='true' />
+            <format attr='enabled' id='road-motorway_link' value='true' />
+            <format attr='enabled' id='road-path' value='true' />
+            <format attr='enabled' id='road-pedestrian' value='true' />
+            <format attr='enabled' id='road-polygon' value='true' />
+            <format attr='enabled' id='road-service-link-track' value='true' />
+            <format attr='enabled' id='road-street_limited' value='true' />
+            <format attr='enabled' id='road-street' value='true' />
+            <format attr='enabled' id='road-tertiary' value='true' />
+            <format attr='enabled' id='road-secondary' value='true' />
+            <format attr='enabled' id='road-primary' value='true' />
+            <format attr='enabled' id='road-trunk' value='true' />
+            <format attr='enabled' id='road-motorway' value='true' />
+            <format attr='enabled' id='road-rail' value='true' />
+            <format attr='enabled' id='road-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-street-low' value='true' />
+            <format attr='enabled' id='bridge-street_limited-low' value='true' />
+            <format attr='enabled' id='bridge-pedestrian-case' value='true' />
+            <format attr='enabled' id='bridge-service-link-track-case' value='true' />
+            <format attr='enabled' id='bridge-street_limited-case' value='true' />
+            <format attr='enabled' id='bridge-street-case' value='true' />
+            <format attr='enabled' id='bridge-tertiary-case' value='true' />
+            <format attr='enabled' id='bridge-secondary-case' value='true' />
+            <format attr='enabled' id='bridge-primary-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link' value='true' />
+            <format attr='enabled' id='bridge-motorway_link' value='true' />
+            <format attr='enabled' id='bridge-path' value='true' />
+            <format attr='enabled' id='bridge-pedestrian' value='true' />
+            <format attr='enabled' id='bridge-service-link-track' value='true' />
+            <format attr='enabled' id='bridge-street_limited' value='true' />
+            <format attr='enabled' id='bridge-street' value='true' />
+            <format attr='enabled' id='bridge-tertiary' value='true' />
+            <format attr='enabled' id='bridge-secondary' value='true' />
+            <format attr='enabled' id='bridge-primary' value='true' />
+            <format attr='enabled' id='bridge-trunk' value='true' />
+            <format attr='enabled' id='bridge-motorway' value='true' />
+            <format attr='enabled' id='bridge-rail' value='true' />
+            <format attr='enabled' id='bridge-rail-tracks' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk-2-case' value='true' />
+            <format attr='enabled' id='bridge-motorway-2-case' value='true' />
+            <format attr='enabled' id='bridge-trunk_link-2' value='true' />
+            <format attr='enabled' id='bridge-motorway_link-2' value='true' />
+            <format attr='enabled' id='bridge-trunk-2' value='true' />
+            <format attr='enabled' id='bridge-motorway-2' value='true' />
+            <format attr='enabled' id='road-shields-2-white' value='true' />
+            <format attr='enabled' id='road-shields-2-black' value='true' />
+            <format attr='enabled' id='road-shields-1-white' value='true' />
+            <format attr='enabled' id='road-shields-1-black' value='true' />
+            <format attr='enabled' id='road-label-small' value='true' />
+            <format attr='enabled' id='road-label-big' value='true' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0.0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Multipolygon' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:total dissolved solids_value:qk]' />
+              <geometry column='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[Geometry (generated)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='0.097955800592899323' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:LATTITUDE:qk]</rows>
+        <cols>[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:LONGITUDE:qk]</cols>
+      </table>
+      <simple-id uuid='{4204B48C-4666-467F-BAC4-FCE17F077F34}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' name='Bicarbonate Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:bicarbonate_value:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <floating-toolbar-visibility value='1' />
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{9F451AE3-F367-4ECD-8C08-85BDDD4DDF8E}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Total Dissolved Solids'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:total dissolved solids_value:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <floating-toolbar-visibility value='1' />
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{C85481A7-5D67-4BBC-B8F7-9C2D2387668A}' />
+    </window>
+    <window class='worksheet' name='Fluoride Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:fluoride_value:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <floating-toolbar-visibility value='1' />
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{8CE687FA-6FA0-4B4C-94C7-DAACE7E75442}' />
+    </window>
+    <window class='worksheet' name='Sulphate Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='4' param='[federated.1p2xpxi1awatix1bx8h9311lf8gm].[none:sulphate_value:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <floating-toolbar-visibility value='1' />
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{9B05F296-7956-4CC9-8071-7AB46AC3F5E5}' />
+    </window>
+    <window class='worksheet' name='&apos;Fair-Poor&apos; Smell Map'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='2' param='[federated.0gidjcg1jeh6r41b3fny60jda5kf].[none:MODEL_PREDICTION:qk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{D0D395C6-AB52-4F36-A5C0-71FCB400B39E}' />
+    </window>
+  </windows>
+</workbook>

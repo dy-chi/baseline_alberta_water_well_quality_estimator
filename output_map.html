@@ -1,0 +1,1983 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_383a7fdcf674a6d0977b56cdcc554fab {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_383a7fdcf674a6d0977b56cdcc554fab" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_383a7fdcf674a6d0977b56cdcc554fab = L.map(
+                "map_383a7fdcf674a6d0977b56cdcc554fab",
+                {
+                    center: [52.559574110569756, -112.95376276565023],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_0ec14f47278b905eff279ce9a36c589f = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 20, "maxZoom": 20, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abcd", "tms": false}
+            );
+        
+    
+            tile_layer_0ec14f47278b905eff279ce9a36c589f.addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var circle_cdb2c0f83a106bfd0f691ec889276db6 = L.circle(
+                [52.559574110569756, -112.95376276565023],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.8, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.01, "radius": 550, "stroke": true, "weight": 3}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+        var popup_c52086b38672137482eab10c9eef0ad5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6221f49af8bd885721413526d6b01afc = $(`<div id="html_6221f49af8bd885721413526d6b01afc" style="width: 100.0%; height: 100.0%;">550,1110,3330m</div>`)[0];
+                popup_c52086b38672137482eab10c9eef0ad5.setContent(html_6221f49af8bd885721413526d6b01afc);
+            
+        
+
+        circle_cdb2c0f83a106bfd0f691ec889276db6.bindPopup(popup_c52086b38672137482eab10c9eef0ad5)
+        ;
+
+        
+    
+    
+            var circle_91aa3147c7c192e15b8af1544afe9889 = L.circle(
+                [52.559574110569756, -112.95376276565023],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.4, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.01, "radius": 1110, "stroke": true, "weight": 3}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+        var popup_307a5a6ec1dd1b93c19f57ef78bd8efc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_207c0e120d1c5543ef24cf5cb685127c = $(`<div id="html_207c0e120d1c5543ef24cf5cb685127c" style="width: 100.0%; height: 100.0%;">550,1110,3330m</div>`)[0];
+                popup_307a5a6ec1dd1b93c19f57ef78bd8efc.setContent(html_207c0e120d1c5543ef24cf5cb685127c);
+            
+        
+
+        circle_91aa3147c7c192e15b8af1544afe9889.bindPopup(popup_307a5a6ec1dd1b93c19f57ef78bd8efc)
+        ;
+
+        
+    
+    
+            var circle_bce26e20fc3e06dc07f91f7c1e4f4bec = L.circle(
+                [52.559574110569756, -112.95376276565023],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "yellow", "fillOpacity": 0.1, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 0.01, "radius": 3330, "stroke": true, "weight": 3}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+        var popup_6f53d90c7fd62a8df6edca43178571d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6984b28205f53eb5ce6f8ef8d292b365 = $(`<div id="html_6984b28205f53eb5ce6f8ef8d292b365" style="width: 100.0%; height: 100.0%;">550,1110,3330m</div>`)[0];
+                popup_6f53d90c7fd62a8df6edca43178571d8.setContent(html_6984b28205f53eb5ce6f8ef8d292b365);
+            
+        
+
+        circle_bce26e20fc3e06dc07f91f7c1e4f4bec.bindPopup(popup_6f53d90c7fd62a8df6edca43178571d8)
+        ;
+
+        
+    
+    
+            var marker_8dee68ea8d7921ff6f30bdb455377ecc = L.marker(
+                [52.530694, -112.954555],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_60c4d60ce9d93df454993aaeb047cbd9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_8dee68ea8d7921ff6f30bdb455377ecc.setIcon(icon_60c4d60ce9d93df454993aaeb047cbd9);
+        
+    
+        var popup_698439ea646990d7a77a9664414e9e7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_938ace5101fd9a5efff94b2fdcae5672 = $(`<div id="html_938ace5101fd9a5efff94b2fdcae5672" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 5762</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 233.0</div><div style="white-space: nowrap;">total dissolved solids_value: 624.0</div><div style="white-space: nowrap;">ph_value: 8.51</div></div>`)[0];
+                popup_698439ea646990d7a77a9664414e9e7f.setContent(html_938ace5101fd9a5efff94b2fdcae5672);
+            
+        
+
+        marker_8dee68ea8d7921ff6f30bdb455377ecc.bindPopup(popup_698439ea646990d7a77a9664414e9e7f)
+        ;
+
+        
+    
+    
+            var marker_fb98828368d445a613fd0b139ba8be3c = L.marker(
+                [52.530805, -112.957638],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_09ac58512e839bb091d3e401c3783813 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_fb98828368d445a613fd0b139ba8be3c.setIcon(icon_09ac58512e839bb091d3e401c3783813);
+        
+    
+        var popup_a8b47ed9026d9200b27fe382fa27d70b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f268c587cef174ca963bc06735e87de = $(`<div id="html_4f268c587cef174ca963bc06735e87de" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 4133</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 255.0</div><div style="white-space: nowrap;">total dissolved solids_value: 672.0</div></div>`)[0];
+                popup_a8b47ed9026d9200b27fe382fa27d70b.setContent(html_4f268c587cef174ca963bc06735e87de);
+            
+        
+
+        marker_fb98828368d445a613fd0b139ba8be3c.bindPopup(popup_a8b47ed9026d9200b27fe382fa27d70b)
+        ;
+
+        
+    
+    
+            var marker_a77178968221dc7d7db2d2d09cdb2e36 = L.marker(
+                [52.530166, -112.958638],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_4cffdcf9e7965499de685826468d155f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a77178968221dc7d7db2d2d09cdb2e36.setIcon(icon_4cffdcf9e7965499de685826468d155f);
+        
+    
+        var popup_d9b918e11b3a1e97b936d0a8ea9b44db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_463e1bd37cee40c9bab0a70d413ea63a = $(`<div id="html_463e1bd37cee40c9bab0a70d413ea63a" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 5270</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 249.0</div><div style="white-space: nowrap;">total dissolved solids_value: 640.0</div></div>`)[0];
+                popup_d9b918e11b3a1e97b936d0a8ea9b44db.setContent(html_463e1bd37cee40c9bab0a70d413ea63a);
+            
+        
+
+        marker_a77178968221dc7d7db2d2d09cdb2e36.bindPopup(popup_d9b918e11b3a1e97b936d0a8ea9b44db)
+        ;
+
+        
+    
+    
+            var marker_300bbee66f918ccfe8cb2d822335f71d = L.marker(
+                [52.540003, -112.957444],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_0645377e2cd8d932ddf8a0c0b0178142 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_300bbee66f918ccfe8cb2d822335f71d.setIcon(icon_0645377e2cd8d932ddf8a0c0b0178142);
+        
+    
+        var popup_1d34f9e49637ee589ad86900703d2783 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d35f9e0cfb053d2a3165c48c144bcb10 = $(`<div id="html_d35f9e0cfb053d2a3165c48c144bcb10" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 15910</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">iron (total)_value: 0.485</div><div style="white-space: nowrap;">ph_value: 8.7</div></div>`)[0];
+                popup_1d34f9e49637ee589ad86900703d2783.setContent(html_d35f9e0cfb053d2a3165c48c144bcb10);
+            
+        
+
+        marker_300bbee66f918ccfe8cb2d822335f71d.bindPopup(popup_1d34f9e49637ee589ad86900703d2783)
+        ;
+
+        
+    
+    
+            var marker_7e40a7a3a1105cf29a2328aae9d1d2b4 = L.marker(
+                [52.540004, -112.957444],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_150d4c928a5616b5846e3b9ff9b26c65 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7e40a7a3a1105cf29a2328aae9d1d2b4.setIcon(icon_150d4c928a5616b5846e3b9ff9b26c65);
+        
+    
+        var popup_eed0cf8fe320926c1bef643788daa856 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af3662a481e267aa12069ed034ddc0dc = $(`<div id="html_af3662a481e267aa12069ed034ddc0dc" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 11938</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 223.0</div><div style="white-space: nowrap;">total dissolved solids_value: 581.0</div><div style="white-space: nowrap;">ph_value: 8.53</div></div>`)[0];
+                popup_eed0cf8fe320926c1bef643788daa856.setContent(html_af3662a481e267aa12069ed034ddc0dc);
+            
+        
+
+        marker_7e40a7a3a1105cf29a2328aae9d1d2b4.bindPopup(popup_eed0cf8fe320926c1bef643788daa856)
+        ;
+
+        
+    
+    
+            var marker_9c13d307d8a2e75d7231a29db29c789e = L.marker(
+                [52.540278, -112.956572],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_62ec9119bb4444eab7e66b49445ec9dc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_9c13d307d8a2e75d7231a29db29c789e.setIcon(icon_62ec9119bb4444eab7e66b49445ec9dc);
+        
+    
+        var popup_6128f7d800100cd9f429fb26bb313c74 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfa47afdbc9506ea294b3a2b93cd8f9e = $(`<div id="html_dfa47afdbc9506ea294b3a2b93cd8f9e" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 4465</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">manganese_value: 0.4</div><div style="white-space: nowrap;">total dissolved solids_value: 565.0</div><div style="white-space: nowrap;">ph_value: 8.58</div></div>`)[0];
+                popup_6128f7d800100cd9f429fb26bb313c74.setContent(html_dfa47afdbc9506ea294b3a2b93cd8f9e);
+            
+        
+
+        marker_9c13d307d8a2e75d7231a29db29c789e.bindPopup(popup_6128f7d800100cd9f429fb26bb313c74)
+        ;
+
+        
+    
+    
+            var marker_12e6e210b52068f1015db2cc18beabde = L.marker(
+                [52.540209, -112.956967],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_c4ff9480c361cb166946c8d2ddc18c76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_12e6e210b52068f1015db2cc18beabde.setIcon(icon_c4ff9480c361cb166946c8d2ddc18c76);
+        
+    
+        var popup_fdab1dcde0b18c45a41de14b1bcf4268 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a951597a3b40ae2b961118c82accd95c = $(`<div id="html_a951597a3b40ae2b961118c82accd95c" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 11936</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 209.0</div><div style="white-space: nowrap;">total dissolved solids_value: 545.0</div><div style="white-space: nowrap;">ph_value: 8.52</div></div>`)[0];
+                popup_fdab1dcde0b18c45a41de14b1bcf4268.setContent(html_a951597a3b40ae2b961118c82accd95c);
+            
+        
+
+        marker_12e6e210b52068f1015db2cc18beabde.bindPopup(popup_fdab1dcde0b18c45a41de14b1bcf4268)
+        ;
+
+        
+    
+    
+            var marker_fe93edc511ce03294264f2b0fd9ccda8 = L.marker(
+                [52.540195, -112.957506],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_1d6a86ac71fe02c6e905e088e27c4a53 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_fe93edc511ce03294264f2b0fd9ccda8.setIcon(icon_1d6a86ac71fe02c6e905e088e27c4a53);
+        
+    
+        var popup_0671a2ed4899d46e6b086307b971426c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b7d267306aef8abc0a62911087c97cd7 = $(`<div id="html_b7d267306aef8abc0a62911087c97cd7" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 4464</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 241.0</div><div style="white-space: nowrap;">total dissolved solids_value: 602.0</div><div style="white-space: nowrap;">ph_value: 8.6</div></div>`)[0];
+                popup_0671a2ed4899d46e6b086307b971426c.setContent(html_b7d267306aef8abc0a62911087c97cd7);
+            
+        
+
+        marker_fe93edc511ce03294264f2b0fd9ccda8.bindPopup(popup_0671a2ed4899d46e6b086307b971426c)
+        ;
+
+        
+    
+    
+            var marker_69d5da1b0fb872b44480f78d031d17da = L.marker(
+                [52.57866, -112.93977],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_91df00bc1699f1e36a53d44719ed6f7b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_69d5da1b0fb872b44480f78d031d17da.setIcon(icon_91df00bc1699f1e36a53d44719ed6f7b);
+        
+    
+        var popup_9ca984e700f013dd1afca4d80499fed0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b2216a72f301ae8bcf76e263ce8df00 = $(`<div id="html_9b2216a72f301ae8bcf76e263ce8df00" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 6824</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 304.0</div><div style="white-space: nowrap;">total dissolved solids_value: 890.0</div><div style="white-space: nowrap;">ph_value: 8.6</div></div>`)[0];
+                popup_9ca984e700f013dd1afca4d80499fed0.setContent(html_9b2216a72f301ae8bcf76e263ce8df00);
+            
+        
+
+        marker_69d5da1b0fb872b44480f78d031d17da.bindPopup(popup_9ca984e700f013dd1afca4d80499fed0)
+        ;
+
+        
+    
+    
+            var marker_46d226c638f2cb901c5d8146cf8b0420 = L.marker(
+                [52.578729, -112.939155],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_683ea14143613cfaec738043b8965f44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_46d226c638f2cb901c5d8146cf8b0420.setIcon(icon_683ea14143613cfaec738043b8965f44);
+        
+    
+        var popup_c489a47d4b6ce94a5bef3393d666033a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1bf2f71c7fa4443e364cc5429b0853cf = $(`<div id="html_1bf2f71c7fa4443e364cc5429b0853cf" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 5248</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">manganese_value: 1.1</div><div style="white-space: nowrap;">sodium_value: 347.0</div><div style="white-space: nowrap;">total dissolved solids_value: 919.0</div></div>`)[0];
+                popup_c489a47d4b6ce94a5bef3393d666033a.setContent(html_1bf2f71c7fa4443e364cc5429b0853cf);
+            
+        
+
+        marker_46d226c638f2cb901c5d8146cf8b0420.bindPopup(popup_c489a47d4b6ce94a5bef3393d666033a)
+        ;
+
+        
+    
+    
+            var marker_d07bef7396b68b7c0ca20865896c436a = L.marker(
+                [52.580378, -112.943006],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_c614e16df9a90b793baf1140b48d6989 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d07bef7396b68b7c0ca20865896c436a.setIcon(icon_c614e16df9a90b793baf1140b48d6989);
+        
+    
+        var popup_4fb32d060bf19dc0d07953b366a3acc1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_56f29fd0a6a7f4882ccd25e44e67e61a = $(`<div id="html_56f29fd0a6a7f4882ccd25e44e67e61a" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 6276</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 381.0</div><div style="white-space: nowrap;">total dissolved solids_value: 1050.0</div></div>`)[0];
+                popup_4fb32d060bf19dc0d07953b366a3acc1.setContent(html_56f29fd0a6a7f4882ccd25e44e67e61a);
+            
+        
+
+        marker_d07bef7396b68b7c0ca20865896c436a.bindPopup(popup_4fb32d060bf19dc0d07953b366a3acc1)
+        ;
+
+        
+    
+    
+            var marker_17db1d6c08baebef7c70d71af56b780c = L.marker(
+                [52.581262, -112.942389],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_357568945d736c48785b1d9f81523bce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_17db1d6c08baebef7c70d71af56b780c.setIcon(icon_357568945d736c48785b1d9f81523bce);
+        
+    
+        var popup_09041002b65bdab913c3f07351f20ef8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_373cae09af9a524bf3f7773fda759f8a = $(`<div id="html_373cae09af9a524bf3f7773fda759f8a" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 7419</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 370.0</div><div style="white-space: nowrap;">total dissolved solids_value: 1050.0</div></div>`)[0];
+                popup_09041002b65bdab913c3f07351f20ef8.setContent(html_373cae09af9a524bf3f7773fda759f8a);
+            
+        
+
+        marker_17db1d6c08baebef7c70d71af56b780c.bindPopup(popup_09041002b65bdab913c3f07351f20ef8)
+        ;
+
+        
+    
+    
+            var marker_efeebfddffa3de3c8998f715e99ebde4 = L.marker(
+                [52.578712, -112.944006],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_3432cbf5cbe32d74ccbaeffc8daad571 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_efeebfddffa3de3c8998f715e99ebde4.setIcon(icon_3432cbf5cbe32d74ccbaeffc8daad571);
+        
+    
+        var popup_63293706ae7c0f098b86308dc7aab226 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4a0fc82ea67c5074ad8b56b98e2f5e8 = $(`<div id="html_d4a0fc82ea67c5074ad8b56b98e2f5e8" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 5249</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 276.0</div><div style="white-space: nowrap;">total dissolved solids_value: 670.0</div><div style="white-space: nowrap;">ph_value: 8.7</div><div style="white-space: nowrap;">EXCEEDS MAXIMUM ALLOWABLE CONCENTRATION:</div><div style="white-space: nowrap;">fluoride_value: 1.73</div></div>`)[0];
+                popup_63293706ae7c0f098b86308dc7aab226.setContent(html_d4a0fc82ea67c5074ad8b56b98e2f5e8);
+            
+        
+
+        marker_efeebfddffa3de3c8998f715e99ebde4.bindPopup(popup_63293706ae7c0f098b86308dc7aab226)
+        ;
+
+        
+    
+    
+            var marker_63efc740f2bd0b236810d88e096ad25f = L.marker(
+                [52.57852, -112.9441],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_d7264ddb22d9eb01d82ab619ef8be440 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_63efc740f2bd0b236810d88e096ad25f.setIcon(icon_d7264ddb22d9eb01d82ab619ef8be440);
+        
+    
+        var popup_f3d259f1cf71bba2b7567e6383ffba8f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_380816efcc48b4a3632dd5d257c91ce8 = $(`<div id="html_380816efcc48b4a3632dd5d257c91ce8" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 6825</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 244.0</div><div style="white-space: nowrap;">total dissolved solids_value: 695.0</div><div style="white-space: nowrap;">ph_value: 8.7</div></div>`)[0];
+                popup_f3d259f1cf71bba2b7567e6383ffba8f.setContent(html_380816efcc48b4a3632dd5d257c91ce8);
+            
+        
+
+        marker_63efc740f2bd0b236810d88e096ad25f.bindPopup(popup_f3d259f1cf71bba2b7567e6383ffba8f)
+        ;
+
+        
+    
+    
+            var marker_40afdbb41c5e9af1f53e4fb2f87703fc = L.marker(
+                [52.58084, -112.94733],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_2bdf2073bb95d7812f5d7590b15c5a55 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_40afdbb41c5e9af1f53e4fb2f87703fc.setIcon(icon_2bdf2073bb95d7812f5d7590b15c5a55);
+        
+    
+        var popup_ce27009fd8a93afd78f81e293119e8f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1ffd6fdd17ff8ada57b4c0c527315a8e = $(`<div id="html_1ffd6fdd17ff8ada57b4c0c527315a8e" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 6827</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 443.0</div><div style="white-space: nowrap;">total dissolved solids_value: 1210.0</div></div>`)[0];
+                popup_ce27009fd8a93afd78f81e293119e8f4.setContent(html_1ffd6fdd17ff8ada57b4c0c527315a8e);
+            
+        
+
+        marker_40afdbb41c5e9af1f53e4fb2f87703fc.bindPopup(popup_ce27009fd8a93afd78f81e293119e8f4)
+        ;
+
+        
+    
+    
+            var marker_69e12f86cfa995b03f11401e87698a28 = L.marker(
+                [52.581045, -112.947622],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_c14b3c5ebd33cf7a28401f35a7ed130e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_69e12f86cfa995b03f11401e87698a28.setIcon(icon_c14b3c5ebd33cf7a28401f35a7ed130e);
+        
+    
+        var popup_97f2eab95c17df40cce35ccd1cc03adc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a587f4e7f627177f4eeb6cd8d6b531d5 = $(`<div id="html_a587f4e7f627177f4eeb6cd8d6b531d5" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 3974</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 418.0</div><div style="white-space: nowrap;">total dissolved solids_value: 1140.0</div></div>`)[0];
+                popup_97f2eab95c17df40cce35ccd1cc03adc.setContent(html_a587f4e7f627177f4eeb6cd8d6b531d5);
+            
+        
+
+        marker_69e12f86cfa995b03f11401e87698a28.bindPopup(popup_97f2eab95c17df40cce35ccd1cc03adc)
+        ;
+
+        
+    
+    
+            var marker_c199797d309725baef03d6d4ed5caaa2 = L.marker(
+                [52.585078, -112.963203],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_b34c7c2028db96798fbd424eb686325c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c199797d309725baef03d6d4ed5caaa2.setIcon(icon_b34c7c2028db96798fbd424eb686325c);
+        
+    
+        var popup_a972298f7878988900add2ac4cb0186a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_180ff7086805cbd5ce33f3731e07074f = $(`<div id="html_180ff7086805cbd5ce33f3731e07074f" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 6086</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 324.0</div><div style="white-space: nowrap;">total dissolved solids_value: 943.0</div></div>`)[0];
+                popup_a972298f7878988900add2ac4cb0186a.setContent(html_180ff7086805cbd5ce33f3731e07074f);
+            
+        
+
+        marker_c199797d309725baef03d6d4ed5caaa2.bindPopup(popup_a972298f7878988900add2ac4cb0186a)
+        ;
+
+        
+    
+    
+            var marker_2a1092d02ad762f69daf51948b05ac60 = L.marker(
+                [52.585199, -112.963216],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_6714d088b8e90450579027c0c30afa8e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_2a1092d02ad762f69daf51948b05ac60.setIcon(icon_6714d088b8e90450579027c0c30afa8e);
+        
+    
+        var popup_dfc0a87ad549a1b8ca8f6b7474aed749 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d9b6c043a2be3731f86dcaaae2fa7aa = $(`<div id="html_8d9b6c043a2be3731f86dcaaae2fa7aa" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 4542</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 360.0</div><div style="white-space: nowrap;">total dissolved solids_value: 959.0</div><div style="white-space: nowrap;">ph_value: 8.76</div></div>`)[0];
+                popup_dfc0a87ad549a1b8ca8f6b7474aed749.setContent(html_8d9b6c043a2be3731f86dcaaae2fa7aa);
+            
+        
+
+        marker_2a1092d02ad762f69daf51948b05ac60.bindPopup(popup_dfc0a87ad549a1b8ca8f6b7474aed749)
+        ;
+
+        
+    
+    
+            var marker_c68fc7b1e1c802a6686111de9217a5b4 = L.marker(
+                [52.579313, -112.972524],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_ccf1f99726fd15284192f85ce956b59f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c68fc7b1e1c802a6686111de9217a5b4.setIcon(icon_ccf1f99726fd15284192f85ce956b59f);
+        
+    
+        var popup_bf228957dd7eac10b0bf80b47d031f55 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8d0089522d774a6f32bfd3f66bc09779 = $(`<div id="html_8d0089522d774a6f32bfd3f66bc09779" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 7226</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">manganese_value: 0.247</div><div style="white-space: nowrap;">iron_value: 0.895</div><div style="white-space: nowrap;">iron (total)_value: 1.45</div><div style="white-space: nowrap;">total dissolved solids_value: 523.0</div></div>`)[0];
+                popup_bf228957dd7eac10b0bf80b47d031f55.setContent(html_8d0089522d774a6f32bfd3f66bc09779);
+            
+        
+
+        marker_c68fc7b1e1c802a6686111de9217a5b4.bindPopup(popup_bf228957dd7eac10b0bf80b47d031f55)
+        ;
+
+        
+    
+    
+            var marker_841a241eebd0a7576624299df2a67f0c = L.marker(
+                [52.585299, -112.963983],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_768449c4d5dc1eaa6631b125c818511b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_841a241eebd0a7576624299df2a67f0c.setIcon(icon_768449c4d5dc1eaa6631b125c818511b);
+        
+    
+        var popup_eab48ddda936e04df8eb528260d08262 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05b691a5a47ae6ae8de56d934c4ec937 = $(`<div id="html_05b691a5a47ae6ae8de56d934c4ec937" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 577</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 296.0</div><div style="white-space: nowrap;">total dissolved solids_value: 757.0</div><div style="white-space: nowrap;">ph_value: 8.79</div></div>`)[0];
+                popup_eab48ddda936e04df8eb528260d08262.setContent(html_05b691a5a47ae6ae8de56d934c4ec937);
+            
+        
+
+        marker_841a241eebd0a7576624299df2a67f0c.bindPopup(popup_eab48ddda936e04df8eb528260d08262)
+        ;
+
+        
+    
+    
+            var marker_e935790f4842f805bd892808daedd2cf = L.marker(
+                [52.585225, -112.964095],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_05780fe82e162715bfbf5dff287d3ba3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_e935790f4842f805bd892808daedd2cf.setIcon(icon_05780fe82e162715bfbf5dff287d3ba3);
+        
+    
+        var popup_b94d39e05ec99427b56c47ebbd000e05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b17d17e779add7fd128d755bd21906a9 = $(`<div id="html_b17d17e779add7fd128d755bd21906a9" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 7889</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 265.0</div><div style="white-space: nowrap;">total dissolved solids_value: 712.0</div><div style="white-space: nowrap;">ph_value: 8.61</div></div>`)[0];
+                popup_b94d39e05ec99427b56c47ebbd000e05.setContent(html_b17d17e779add7fd128d755bd21906a9);
+            
+        
+
+        marker_e935790f4842f805bd892808daedd2cf.bindPopup(popup_b94d39e05ec99427b56c47ebbd000e05)
+        ;
+
+        
+    
+    
+            var marker_f8337b55339779d603f13190c8dd6113 = L.marker(
+                [52.58525, -112.964138],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_79073204ca002176f0b5e06093d8e123 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_f8337b55339779d603f13190c8dd6113.setIcon(icon_79073204ca002176f0b5e06093d8e123);
+        
+    
+        var popup_8c2c37f5614509550e83061f593b51d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a697ffd69e8cacf5adf7c0f140466f6c = $(`<div id="html_a697ffd69e8cacf5adf7c0f140466f6c" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 6858</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 311.0</div><div style="white-space: nowrap;">total dissolved solids_value: 783.0</div><div style="white-space: nowrap;">ph_value: 8.65</div></div>`)[0];
+                popup_8c2c37f5614509550e83061f593b51d3.setContent(html_a697ffd69e8cacf5adf7c0f140466f6c);
+            
+        
+
+        marker_f8337b55339779d603f13190c8dd6113.bindPopup(popup_8c2c37f5614509550e83061f593b51d3)
+        ;
+
+        
+    
+    
+            var marker_650af48b2a435946f6230ca10f8fb335 = L.marker(
+                [52.583031, -112.967923],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_2603fcf6382bc6b1e95773cbeaba288b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_650af48b2a435946f6230ca10f8fb335.setIcon(icon_2603fcf6382bc6b1e95773cbeaba288b);
+        
+    
+        var popup_2432b3d832d68974f65628ff09af9f88 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9cf6485377b13a11467eaa8450750ac3 = $(`<div id="html_9cf6485377b13a11467eaa8450750ac3" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 11033</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 236.0</div><div style="white-space: nowrap;">total dissolved solids_value: 601.0</div><div style="white-space: nowrap;">ph_value: 8.54</div></div>`)[0];
+                popup_2432b3d832d68974f65628ff09af9f88.setContent(html_9cf6485377b13a11467eaa8450750ac3);
+            
+        
+
+        marker_650af48b2a435946f6230ca10f8fb335.bindPopup(popup_2432b3d832d68974f65628ff09af9f88)
+        ;
+
+        
+    
+    
+            var marker_819107abe323626ab6d295c50dcf4a29 = L.marker(
+                [52.582555, -112.968404],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_96d066e1936cd6d3e152b29c2285c03f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_819107abe323626ab6d295c50dcf4a29.setIcon(icon_96d066e1936cd6d3e152b29c2285c03f);
+        
+    
+        var popup_5246c3ae8807495a33dc751b57c0760c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59a9e22c7ee8e8f90cedea428a34b73c = $(`<div id="html_59a9e22c7ee8e8f90cedea428a34b73c" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 9836</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">manganese_value: 0.637</div><div style="white-space: nowrap;">total dissolved solids_value: 807.0</div><div style="white-space: nowrap;">EXCEEDS MAXIMUM ALLOWABLE CONCENTRATION:</div><div style="white-space: nowrap;">nitrate as nitrogen_value: 25.7</div><div style="white-space: nowrap;">nitrite + nitrate as nitrogen_value: 25.7</div></div>`)[0];
+                popup_5246c3ae8807495a33dc751b57c0760c.setContent(html_59a9e22c7ee8e8f90cedea428a34b73c);
+            
+        
+
+        marker_819107abe323626ab6d295c50dcf4a29.bindPopup(popup_5246c3ae8807495a33dc751b57c0760c)
+        ;
+
+        
+    
+    
+            var marker_2adf512b6ea9b10a6861247e6aea6052 = L.marker(
+                [52.582066, -112.968633],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_d937a4cf335f161e8ff3e3e526a9956c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_2adf512b6ea9b10a6861247e6aea6052.setIcon(icon_d937a4cf335f161e8ff3e3e526a9956c);
+        
+    
+        var popup_aae2ea46f59d41adc0073f869626a42d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69b155af1896b1b55318bcc9653c6486 = $(`<div id="html_69b155af1896b1b55318bcc9653c6486" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 7094</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 256.0</div><div style="white-space: nowrap;">total dissolved solids_value: 660.0</div></div>`)[0];
+                popup_aae2ea46f59d41adc0073f869626a42d.setContent(html_69b155af1896b1b55318bcc9653c6486);
+            
+        
+
+        marker_2adf512b6ea9b10a6861247e6aea6052.bindPopup(popup_aae2ea46f59d41adc0073f869626a42d)
+        ;
+
+        
+    
+    
+            var marker_61bff16bd48ded5ac2b57a6f049cf3c5 = L.marker(
+                [52.58117, -112.968991],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_a0b0ad1ccbac13a46c142bc413d49246 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_61bff16bd48ded5ac2b57a6f049cf3c5.setIcon(icon_a0b0ad1ccbac13a46c142bc413d49246);
+        
+    
+        var popup_01e2fa52e9fd460a9c49788a765031a5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f183e52e4c22f96a7606ecc11c5e2eab = $(`<div id="html_f183e52e4c22f96a7606ecc11c5e2eab" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 4038</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">manganese_value: 0.322</div><div style="white-space: nowrap;">iron_value: 1.09</div><div style="white-space: nowrap;">iron (total)_value: 1.21</div></div>`)[0];
+                popup_01e2fa52e9fd460a9c49788a765031a5.setContent(html_f183e52e4c22f96a7606ecc11c5e2eab);
+            
+        
+
+        marker_61bff16bd48ded5ac2b57a6f049cf3c5.bindPopup(popup_01e2fa52e9fd460a9c49788a765031a5)
+        ;
+
+        
+    
+    
+            var marker_211ef3efa0c0c0b31a3c078425974347 = L.marker(
+                [52.579996, -112.970872],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_e7d0828317fd40cc5804be79ad8dbb70 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_211ef3efa0c0c0b31a3c078425974347.setIcon(icon_e7d0828317fd40cc5804be79ad8dbb70);
+        
+    
+        var popup_ac0076400cdae79f86a90828f91fceaf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f57a1eb7cdbf6446aa75119722807442 = $(`<div id="html_f57a1eb7cdbf6446aa75119722807442" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 7221</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">ph_value: 8.53</div></div>`)[0];
+                popup_ac0076400cdae79f86a90828f91fceaf.setContent(html_f57a1eb7cdbf6446aa75119722807442);
+            
+        
+
+        marker_211ef3efa0c0c0b31a3c078425974347.bindPopup(popup_ac0076400cdae79f86a90828f91fceaf)
+        ;
+
+        
+    
+    
+            var marker_766b19ce9bd3c93c0e802594c0eddc59 = L.marker(
+                [52.579895, -112.971547],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_4542cdead38feb3ffb338d8a81761240 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_766b19ce9bd3c93c0e802594c0eddc59.setIcon(icon_4542cdead38feb3ffb338d8a81761240);
+        
+    
+        var popup_dd01352f87ac65ebcca6406d46445a09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df88b7ac315eb3e35e07e77edfade32b = $(`<div id="html_df88b7ac315eb3e35e07e77edfade32b" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 4036</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 272.0</div><div style="white-space: nowrap;">total dissolved solids_value: 706.0</div><div style="white-space: nowrap;">ph_value: 8.56</div></div>`)[0];
+                popup_dd01352f87ac65ebcca6406d46445a09.setContent(html_df88b7ac315eb3e35e07e77edfade32b);
+            
+        
+
+        marker_766b19ce9bd3c93c0e802594c0eddc59.bindPopup(popup_dd01352f87ac65ebcca6406d46445a09)
+        ;
+
+        
+    
+    
+            var marker_b81a93236266ed9797b1c24634ac3c0e = L.marker(
+                [52.57432, -112.979809],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_a1ae3ff6947275fe1d8c2776a1f50b84 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b81a93236266ed9797b1c24634ac3c0e.setIcon(icon_a1ae3ff6947275fe1d8c2776a1f50b84);
+        
+    
+        var popup_18a5822a6070c4381d8a2b79d529aa2b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a81202d8015e7ac139c580a7ecb52e8 = $(`<div id="html_6a81202d8015e7ac139c580a7ecb52e8" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 6019</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 326.0</div><div style="white-space: nowrap;">total dissolved solids_value: 867.0</div></div>`)[0];
+                popup_18a5822a6070c4381d8a2b79d529aa2b.setContent(html_6a81202d8015e7ac139c580a7ecb52e8);
+            
+        
+
+        marker_b81a93236266ed9797b1c24634ac3c0e.bindPopup(popup_18a5822a6070c4381d8a2b79d529aa2b)
+        ;
+
+        
+    
+    
+            var marker_d84ccd0a769ec5f8b1fb80f392d7815d = L.marker(
+                [52.573027, -112.980222],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_77f555744dd7757e41999f65cebd1929 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d84ccd0a769ec5f8b1fb80f392d7815d.setIcon(icon_77f555744dd7757e41999f65cebd1929);
+        
+    
+        var popup_27c69fe0e7d1b4090657aa46582215fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_749f8c79bb1d4abc50fe801d7b4b0ca8 = $(`<div id="html_749f8c79bb1d4abc50fe801d7b4b0ca8" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 6160</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 318.0</div><div style="white-space: nowrap;">total dissolved solids_value: 809.0</div></div>`)[0];
+                popup_27c69fe0e7d1b4090657aa46582215fc.setContent(html_749f8c79bb1d4abc50fe801d7b4b0ca8);
+            
+        
+
+        marker_d84ccd0a769ec5f8b1fb80f392d7815d.bindPopup(popup_27c69fe0e7d1b4090657aa46582215fc)
+        ;
+
+        
+    
+    
+            var marker_5f1c339ea247bd974fa41792758b53ac = L.marker(
+                [52.573005, -112.980329],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_77da70691520b629109d6647edd39a24 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5f1c339ea247bd974fa41792758b53ac.setIcon(icon_77da70691520b629109d6647edd39a24);
+        
+    
+        var popup_337b9c7810d901728b08660ef91b78b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c716f95524b701679bda72e111c8d94 = $(`<div id="html_8c716f95524b701679bda72e111c8d94" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 7227</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 305.0</div><div style="white-space: nowrap;">total dissolved solids_value: 813.0</div></div>`)[0];
+                popup_337b9c7810d901728b08660ef91b78b1.setContent(html_8c716f95524b701679bda72e111c8d94);
+            
+        
+
+        marker_5f1c339ea247bd974fa41792758b53ac.bindPopup(popup_337b9c7810d901728b08660ef91b78b1)
+        ;
+
+        
+    
+    
+            var marker_662f6b32e0fce716f6395c0fe2c4ad89 = L.marker(
+                [52.542195, -112.975723],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_a543d058f06dba49b8845def6b6e6ad8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_662f6b32e0fce716f6395c0fe2c4ad89.setIcon(icon_a543d058f06dba49b8845def6b6e6ad8);
+        
+    
+        var popup_07bc2613aaef8e02dd5e7dc1de9aed36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74ea47b5dad4e31c9334de563ac99c26 = $(`<div id="html_74ea47b5dad4e31c9334de563ac99c26" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 8611</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 354.0</div><div style="white-space: nowrap;">total dissolved solids_value: 907.0</div></div>`)[0];
+                popup_07bc2613aaef8e02dd5e7dc1de9aed36.setContent(html_74ea47b5dad4e31c9334de563ac99c26);
+            
+        
+
+        marker_662f6b32e0fce716f6395c0fe2c4ad89.bindPopup(popup_07bc2613aaef8e02dd5e7dc1de9aed36)
+        ;
+
+        
+    
+    
+            var marker_0b1de0b7d20f4ba938b3372ddc00cf71 = L.marker(
+                [52.547253, -112.974611],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_031cb8daf0ce50679c8607c70f2830b4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_0b1de0b7d20f4ba938b3372ddc00cf71.setIcon(icon_031cb8daf0ce50679c8607c70f2830b4);
+        
+    
+        var popup_17002d36cb413cce7e91aadb6428a967 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_71312fe5865dc6609672032762b517ef = $(`<div id="html_71312fe5865dc6609672032762b517ef" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 12854</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 320.0</div><div style="white-space: nowrap;">total dissolved solids_value: 833.0</div></div>`)[0];
+                popup_17002d36cb413cce7e91aadb6428a967.setContent(html_71312fe5865dc6609672032762b517ef);
+            
+        
+
+        marker_0b1de0b7d20f4ba938b3372ddc00cf71.bindPopup(popup_17002d36cb413cce7e91aadb6428a967)
+        ;
+
+        
+    
+    
+            var marker_68a6413bb64e3b44cd2f72c713d93967 = L.marker(
+                [52.547445, -112.974556],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_4454c41c032058ec4d83911580bdf300 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_68a6413bb64e3b44cd2f72c713d93967.setIcon(icon_4454c41c032058ec4d83911580bdf300);
+        
+    
+        var popup_67bf72ad85ebb204a0fe678dc70433d3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4a215174216ba074193405a634fa3f59 = $(`<div id="html_4a215174216ba074193405a634fa3f59" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 4500</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 362.0</div><div style="white-space: nowrap;">total dissolved solids_value: 891.0</div></div>`)[0];
+                popup_67bf72ad85ebb204a0fe678dc70433d3.setContent(html_4a215174216ba074193405a634fa3f59);
+            
+        
+
+        marker_68a6413bb64e3b44cd2f72c713d93967.bindPopup(popup_67bf72ad85ebb204a0fe678dc70433d3)
+        ;
+
+        
+    
+    
+            var marker_4bf9e990f67f2d31af739321675d2697 = L.marker(
+                [52.546638, -112.976861],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_a7339d737d86d407c9423a10d00532c6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_4bf9e990f67f2d31af739321675d2697.setIcon(icon_a7339d737d86d407c9423a10d00532c6);
+        
+    
+        var popup_a5af1a327fb3477a80628687970f77a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c8e7d98085ac527a8a0669f8ec83417 = $(`<div id="html_5c8e7d98085ac527a8a0669f8ec83417" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 7407</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 326.0</div><div style="white-space: nowrap;">total dissolved solids_value: 874.0</div></div>`)[0];
+                popup_a5af1a327fb3477a80628687970f77a0.setContent(html_5c8e7d98085ac527a8a0669f8ec83417);
+            
+        
+
+        marker_4bf9e990f67f2d31af739321675d2697.bindPopup(popup_a5af1a327fb3477a80628687970f77a0)
+        ;
+
+        
+    
+    
+            var marker_cab875640ba48af1788f8d6fa14466f3 = L.marker(
+                [52.54664, -112.976855],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_75534c49073c4146eb88b0f4adc62301 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_cab875640ba48af1788f8d6fa14466f3.setIcon(icon_75534c49073c4146eb88b0f4adc62301);
+        
+    
+        var popup_8253a48a1e6f235b4b9bab36d9181c94 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e07eb3aa4cafc52db676a3a65a76c479 = $(`<div id="html_e07eb3aa4cafc52db676a3a65a76c479" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 12855</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 325.0</div><div style="white-space: nowrap;">total dissolved solids_value: 878.0</div></div>`)[0];
+                popup_8253a48a1e6f235b4b9bab36d9181c94.setContent(html_e07eb3aa4cafc52db676a3a65a76c479);
+            
+        
+
+        marker_cab875640ba48af1788f8d6fa14466f3.bindPopup(popup_8253a48a1e6f235b4b9bab36d9181c94)
+        ;
+
+        
+    
+    
+            var marker_1e84064ec66c6ece5d37a7e50c7eb5fc = L.marker(
+                [52.546861, -112.976873],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_decbeba293af6483d200ce0f76020854 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1e84064ec66c6ece5d37a7e50c7eb5fc.setIcon(icon_decbeba293af6483d200ce0f76020854);
+        
+    
+        var popup_1c7b5fbe6e543ad58a0befdb87442352 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea2a4aa02887a9127ca229e40981540c = $(`<div id="html_ea2a4aa02887a9127ca229e40981540c" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 3062</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 364.0</div><div style="white-space: nowrap;">total dissolved solids_value: 936.0</div></div>`)[0];
+                popup_1c7b5fbe6e543ad58a0befdb87442352.setContent(html_ea2a4aa02887a9127ca229e40981540c);
+            
+        
+
+        marker_1e84064ec66c6ece5d37a7e50c7eb5fc.bindPopup(popup_1c7b5fbe6e543ad58a0befdb87442352)
+        ;
+
+        
+    
+    
+            var marker_dbe7ee870319bae46c984e5481e29a51 = L.marker(
+                [52.548861, -112.979333],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_85bfa93d085e5bb28602dede2ca9b4ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_dbe7ee870319bae46c984e5481e29a51.setIcon(icon_85bfa93d085e5bb28602dede2ca9b4ca);
+        
+    
+        var popup_a6ee910269e506e107d1b2e44722c4b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_079852f2b3870e2ea0873dc9704ceb39 = $(`<div id="html_079852f2b3870e2ea0873dc9704ceb39" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 7408</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 306.0</div><div style="white-space: nowrap;">total dissolved solids_value: 854.0</div></div>`)[0];
+                popup_a6ee910269e506e107d1b2e44722c4b4.setContent(html_079852f2b3870e2ea0873dc9704ceb39);
+            
+        
+
+        marker_dbe7ee870319bae46c984e5481e29a51.bindPopup(popup_a6ee910269e506e107d1b2e44722c4b4)
+        ;
+
+        
+    
+    
+            var marker_5d091eaa35bcbf6d613195dafc37dcf0 = L.marker(
+                [52.548878, -112.979056],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_aa3bf2a0e74d669ad132f268f4591ad6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5d091eaa35bcbf6d613195dafc37dcf0.setIcon(icon_aa3bf2a0e74d669ad132f268f4591ad6);
+        
+    
+        var popup_2d7a9638f76e4ad6028fdd9c3784b766 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2ac5c7e928a230102aa66eb89acd1729 = $(`<div id="html_2ac5c7e928a230102aa66eb89acd1729" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 3063</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 335.0</div><div style="white-space: nowrap;">total dissolved solids_value: 905.0</div></div>`)[0];
+                popup_2d7a9638f76e4ad6028fdd9c3784b766.setContent(html_2ac5c7e928a230102aa66eb89acd1729);
+            
+        
+
+        marker_5d091eaa35bcbf6d613195dafc37dcf0.bindPopup(popup_2d7a9638f76e4ad6028fdd9c3784b766)
+        ;
+
+        
+    
+    
+            var marker_cb393a4786ef0dd5716a503f82894384 = L.marker(
+                [52.550111, -112.978506],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_4731f463d38bfa96a35314a3cca8e14c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_cb393a4786ef0dd5716a503f82894384.setIcon(icon_4731f463d38bfa96a35314a3cca8e14c);
+        
+    
+        var popup_fe7519d3f3b93f6a4fa68e7c86cef9d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7f0d4b4b9a024070ede0480b5522195 = $(`<div id="html_e7f0d4b4b9a024070ede0480b5522195" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 9629</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 324.0</div><div style="white-space: nowrap;">total dissolved solids_value: 878.0</div></div>`)[0];
+                popup_fe7519d3f3b93f6a4fa68e7c86cef9d8.setContent(html_e7f0d4b4b9a024070ede0480b5522195);
+            
+        
+
+        marker_cb393a4786ef0dd5716a503f82894384.bindPopup(popup_fe7519d3f3b93f6a4fa68e7c86cef9d8)
+        ;
+
+        
+    
+    
+            var marker_1f2602f3bf32ff310ebbb455673f2701 = L.marker(
+                [52.549919, -112.978669],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_f579dc18e04571553f13dab9c15958e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1f2602f3bf32ff310ebbb455673f2701.setIcon(icon_f579dc18e04571553f13dab9c15958e1);
+        
+    
+        var popup_29bf8982c86a145d6e965f0df470f311 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_feddc5ab8668155a6a08f6e00bec604e = $(`<div id="html_feddc5ab8668155a6a08f6e00bec604e" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 15725</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">iron (total)_value: 0.329</div><div style="white-space: nowrap;">sodium_value: 291.0</div><div style="white-space: nowrap;">total dissolved solids_value: 820.0</div></div>`)[0];
+                popup_29bf8982c86a145d6e965f0df470f311.setContent(html_feddc5ab8668155a6a08f6e00bec604e);
+            
+        
+
+        marker_1f2602f3bf32ff310ebbb455673f2701.bindPopup(popup_29bf8982c86a145d6e965f0df470f311)
+        ;
+
+        
+    
+    
+            var marker_09490b5e840750605d771cee72d24a1b = L.marker(
+                [52.549972, -112.978861],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_6613d03874998fd241fc43287410b77f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_09490b5e840750605d771cee72d24a1b.setIcon(icon_6613d03874998fd241fc43287410b77f);
+        
+    
+        var popup_332606202061fe44802283eb6da6e923 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_57a30c1df1113508e64dc8ab18726e44 = $(`<div id="html_57a30c1df1113508e64dc8ab18726e44" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 7418</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 304.0</div><div style="white-space: nowrap;">total dissolved solids_value: 827.0</div></div>`)[0];
+                popup_332606202061fe44802283eb6da6e923.setContent(html_57a30c1df1113508e64dc8ab18726e44);
+            
+        
+
+        marker_09490b5e840750605d771cee72d24a1b.bindPopup(popup_332606202061fe44802283eb6da6e923)
+        ;
+
+        
+    
+    
+            var marker_be55fab7c030652280b778c5bbf182ee = L.marker(
+                [52.551722, -112.96869],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_958ec3ea40ff6526e6dc38b45ae480e8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_be55fab7c030652280b778c5bbf182ee.setIcon(icon_958ec3ea40ff6526e6dc38b45ae480e8);
+        
+    
+        var popup_7783f09c79e990617ff789a595b9c197 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_89d57863f2e4c10ea60d6c4c9587a1e7 = $(`<div id="html_89d57863f2e4c10ea60d6c4c9587a1e7" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 11828</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">iron (total)_value: 0.567</div><div style="white-space: nowrap;">sodium_value: 271.0</div><div style="white-space: nowrap;">total dissolved solids_value: 724.0</div></div>`)[0];
+                popup_7783f09c79e990617ff789a595b9c197.setContent(html_89d57863f2e4c10ea60d6c4c9587a1e7);
+            
+        
+
+        marker_be55fab7c030652280b778c5bbf182ee.bindPopup(popup_7783f09c79e990617ff789a595b9c197)
+        ;
+
+        
+    
+    
+            var marker_6f4e556837dc1ffe208225a3fcbb9173 = L.marker(
+                [52.551878, -112.968623],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_32be3704e3c34be75b8517cbfe57eb21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_6f4e556837dc1ffe208225a3fcbb9173.setIcon(icon_32be3704e3c34be75b8517cbfe57eb21);
+        
+    
+        var popup_f45588b79f79b767261b54f4a301eb67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9e22a972058fb349600e73bf50c94df = $(`<div id="html_b9e22a972058fb349600e73bf50c94df" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 9533</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 277.0</div><div style="white-space: nowrap;">total dissolved solids_value: 725.0</div></div>`)[0];
+                popup_f45588b79f79b767261b54f4a301eb67.setContent(html_b9e22a972058fb349600e73bf50c94df);
+            
+        
+
+        marker_6f4e556837dc1ffe208225a3fcbb9173.bindPopup(popup_f45588b79f79b767261b54f4a301eb67)
+        ;
+
+        
+    
+    
+            var marker_aa2cb7d6164f26449b4eaaf13a553b0d = L.marker(
+                [52.55187, -112.9687],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_04fc58c0f268ba455aa863c0720917a6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_aa2cb7d6164f26449b4eaaf13a553b0d.setIcon(icon_04fc58c0f268ba455aa863c0720917a6);
+        
+    
+        var popup_af5748e64e9d9dedaeafda2f80d62eaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_611198d70d78d48404eea2830867888e = $(`<div id="html_611198d70d78d48404eea2830867888e" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 6165</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 264.0</div><div style="white-space: nowrap;">total dissolved solids_value: 700.0</div></div>`)[0];
+                popup_af5748e64e9d9dedaeafda2f80d62eaa.setContent(html_611198d70d78d48404eea2830867888e);
+            
+        
+
+        marker_aa2cb7d6164f26449b4eaaf13a553b0d.bindPopup(popup_af5748e64e9d9dedaeafda2f80d62eaa)
+        ;
+
+        
+    
+    
+            var marker_e14d74921d78218fb32cfaa466e7999b = L.marker(
+                [52.55446, -112.97003],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_b9686d850607a984941dbe999ae1d8e1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_e14d74921d78218fb32cfaa466e7999b.setIcon(icon_b9686d850607a984941dbe999ae1d8e1);
+        
+    
+        var popup_95e22924f8ac9eca349d3d6ee1abc141 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3feefed0ae0c84e2503d0e2fbc56bf9 = $(`<div id="html_d3feefed0ae0c84e2503d0e2fbc56bf9" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 6166</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">iron (total)_value: 1.6</div><div style="white-space: nowrap;">sodium_value: 210.0</div><div style="white-space: nowrap;">total dissolved solids_value: 620.0</div></div>`)[0];
+                popup_95e22924f8ac9eca349d3d6ee1abc141.setContent(html_d3feefed0ae0c84e2503d0e2fbc56bf9);
+            
+        
+
+        marker_e14d74921d78218fb32cfaa466e7999b.bindPopup(popup_95e22924f8ac9eca349d3d6ee1abc141)
+        ;
+
+        
+    
+    
+            var marker_37dfd3b01467f8d8fb6ab7fdb76b8a79 = L.marker(
+                [52.546353, -112.967122],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_6f84d80acc17f62b45a59437024c588e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_37dfd3b01467f8d8fb6ab7fdb76b8a79.setIcon(icon_6f84d80acc17f62b45a59437024c588e);
+        
+    
+        var popup_0131c430c01b1d4d7aaad0f1317c64b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_38477ef29d5f7a1d259e5bb4994c95d8 = $(`<div id="html_38477ef29d5f7a1d259e5bb4994c95d8" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 11933</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">manganese_value: 0.0641</div><div style="white-space: nowrap;">iron_value: 1.44</div><div style="white-space: nowrap;">iron (total)_value: 2.49</div></div>`)[0];
+                popup_0131c430c01b1d4d7aaad0f1317c64b1.setContent(html_38477ef29d5f7a1d259e5bb4994c95d8);
+            
+        
+
+        marker_37dfd3b01467f8d8fb6ab7fdb76b8a79.bindPopup(popup_0131c430c01b1d4d7aaad0f1317c64b1)
+        ;
+
+        
+    
+    
+            var marker_a29229bc6b75607d5f33ff9519d0b02a = L.marker(
+                [52.546333, -112.967222],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_38e79882f269e61f4f11299f9c2d662e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a29229bc6b75607d5f33ff9519d0b02a.setIcon(icon_38e79882f269e61f4f11299f9c2d662e);
+        
+    
+        var popup_29957d97aedda3add29c91825efe2cc8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4047e4b3031324102f14ec9fcf8a8190 = $(`<div id="html_4047e4b3031324102f14ec9fcf8a8190" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 9671</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">manganese_value: 0.291</div><div style="white-space: nowrap;">iron_value: 1.5</div><div style="white-space: nowrap;">iron (total)_value: 1.7</div></div>`)[0];
+                popup_29957d97aedda3add29c91825efe2cc8.setContent(html_4047e4b3031324102f14ec9fcf8a8190);
+            
+        
+
+        marker_a29229bc6b75607d5f33ff9519d0b02a.bindPopup(popup_29957d97aedda3add29c91825efe2cc8)
+        ;
+
+        
+    
+    
+            var marker_5a7f923ea5834c67cbcda63c62124ea1 = L.marker(
+                [52.545964, -112.949318],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_07d4e7fb54f371b9a59d1c23e835a5f5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_5a7f923ea5834c67cbcda63c62124ea1.setIcon(icon_07d4e7fb54f371b9a59d1c23e835a5f5);
+        
+    
+        var popup_ac35534c7064dd41b25eb925dc663249 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc3a1ea3c253f5949ee40f90ca80f72b = $(`<div id="html_dc3a1ea3c253f5949ee40f90ca80f72b" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 15916</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 230.0</div><div style="white-space: nowrap;">total dissolved solids_value: 587.0</div><div style="white-space: nowrap;">ph_value: 8.7</div></div>`)[0];
+                popup_ac35534c7064dd41b25eb925dc663249.setContent(html_dc3a1ea3c253f5949ee40f90ca80f72b);
+            
+        
+
+        marker_5a7f923ea5834c67cbcda63c62124ea1.bindPopup(popup_ac35534c7064dd41b25eb925dc663249)
+        ;
+
+        
+    
+    
+            var marker_269099ee76d126fee78ff6e1b84f9afe = L.marker(
+                [52.545964, -112.949317],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_c24f77d0f19cc76a0ca3ec70d6174445 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_269099ee76d126fee78ff6e1b84f9afe.setIcon(icon_c24f77d0f19cc76a0ca3ec70d6174445);
+        
+    
+        var popup_253ad861df32789cd37d507757bdae15 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_67ced75e10482a0f5abdb8df3c3becc6 = $(`<div id="html_67ced75e10482a0f5abdb8df3c3becc6" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 7064</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">ph_value: 8.58</div></div>`)[0];
+                popup_253ad861df32789cd37d507757bdae15.setContent(html_67ced75e10482a0f5abdb8df3c3becc6);
+            
+        
+
+        marker_269099ee76d126fee78ff6e1b84f9afe.bindPopup(popup_253ad861df32789cd37d507757bdae15)
+        ;
+
+        
+    
+    
+            var marker_395f8fd34e71f57f6e0f440e7fcd6a3b = L.marker(
+                [52.547493, -112.949297],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_88fd26286ac16d19ca630b173c821495 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_395f8fd34e71f57f6e0f440e7fcd6a3b.setIcon(icon_88fd26286ac16d19ca630b173c821495);
+        
+    
+        var popup_040005b90ce9824361167da966ab8fc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_64c529548695143b7d87311ab6403594 = $(`<div id="html_64c529548695143b7d87311ab6403594" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 8234</div></div>`)[0];
+                popup_040005b90ce9824361167da966ab8fc0.setContent(html_64c529548695143b7d87311ab6403594);
+            
+        
+
+        marker_395f8fd34e71f57f6e0f440e7fcd6a3b.bindPopup(popup_040005b90ce9824361167da966ab8fc0)
+        ;
+
+        
+    
+    
+            var marker_9d11b8d07610a1134eac3f55f251f847 = L.marker(
+                [52.557095, -112.954805],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_0eb8cbc70f52aa7201232e704b3d9c60 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9d11b8d07610a1134eac3f55f251f847.setIcon(icon_0eb8cbc70f52aa7201232e704b3d9c60);
+        
+    
+        var popup_62107115da2fdb395ee1acdc1712991a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a9632dd1190ae22e2f45bbe4a4b87ed = $(`<div id="html_2a9632dd1190ae22e2f45bbe4a4b87ed" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 8297</div></div>`)[0];
+                popup_62107115da2fdb395ee1acdc1712991a.setContent(html_2a9632dd1190ae22e2f45bbe4a4b87ed);
+            
+        
+
+        marker_9d11b8d07610a1134eac3f55f251f847.bindPopup(popup_62107115da2fdb395ee1acdc1712991a)
+        ;
+
+        
+    
+    
+            var marker_b313c2b4afe94fc5770607cd17a39eec = L.marker(
+                [52.55798, -112.95937],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_c4fc2ca6122c58f88e095bd94697e6c9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_b313c2b4afe94fc5770607cd17a39eec.setIcon(icon_c4fc2ca6122c58f88e095bd94697e6c9);
+        
+    
+        var popup_a508742384583248408fafe5c2706835 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c578bb94f46e899d4d8ff4aa3b5cb7f8 = $(`<div id="html_c578bb94f46e899d4d8ff4aa3b5cb7f8" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 6164</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">manganese_value: 0.38</div></div>`)[0];
+                popup_a508742384583248408fafe5c2706835.setContent(html_c578bb94f46e899d4d8ff4aa3b5cb7f8);
+            
+        
+
+        marker_b313c2b4afe94fc5770607cd17a39eec.bindPopup(popup_a508742384583248408fafe5c2706835)
+        ;
+
+        
+    
+    
+            var marker_a28fea250b82cf622ed5903ab9d373ed = L.marker(
+                [52.557972, -112.959361],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_2746dab274112a1874cbedf8560551d0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a28fea250b82cf622ed5903ab9d373ed.setIcon(icon_2746dab274112a1874cbedf8560551d0);
+        
+    
+        var popup_a0d3a750ada07426013baf9cae89d6af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8f9d3bba4e111e5094494f90a99a14d5 = $(`<div id="html_8f9d3bba4e111e5094494f90a99a14d5" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 2832</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">manganese_value: 0.347</div></div>`)[0];
+                popup_a0d3a750ada07426013baf9cae89d6af.setContent(html_8f9d3bba4e111e5094494f90a99a14d5);
+            
+        
+
+        marker_a28fea250b82cf622ed5903ab9d373ed.bindPopup(popup_a0d3a750ada07426013baf9cae89d6af)
+        ;
+
+        
+    
+    
+            var marker_ea1c798fbd51efefc14f5b0a45277b1b = L.marker(
+                [52.557973, -112.959366],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_83a069ce6e8b655dedfa1d7a6ec770c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_ea1c798fbd51efefc14f5b0a45277b1b.setIcon(icon_83a069ce6e8b655dedfa1d7a6ec770c5);
+        
+    
+        var popup_6a48c437674fc793f0f2102116d35670 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1c5a54ae2bb48a375201cb034d30dd0 = $(`<div id="html_e1c5a54ae2bb48a375201cb034d30dd0" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 12865</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">manganese_value: 0.363</div></div>`)[0];
+                popup_6a48c437674fc793f0f2102116d35670.setContent(html_e1c5a54ae2bb48a375201cb034d30dd0);
+            
+        
+
+        marker_ea1c798fbd51efefc14f5b0a45277b1b.bindPopup(popup_6a48c437674fc793f0f2102116d35670)
+        ;
+
+        
+    
+    
+            var marker_566222d0f06361ac5dcf72381ea5b4f8 = L.marker(
+                [52.551396, -112.959603],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_fba84d65cf9627145534fe11232ae22b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_566222d0f06361ac5dcf72381ea5b4f8.setIcon(icon_fba84d65cf9627145534fe11232ae22b);
+        
+    
+        var popup_9b4cfe615864f6c05c355bdacf4f7f5e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_882a321140dc0423bc4ca9411139d308 = $(`<div id="html_882a321140dc0423bc4ca9411139d308" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 12914</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">manganese_value: 0.109</div></div>`)[0];
+                popup_9b4cfe615864f6c05c355bdacf4f7f5e.setContent(html_882a321140dc0423bc4ca9411139d308);
+            
+        
+
+        marker_566222d0f06361ac5dcf72381ea5b4f8.bindPopup(popup_9b4cfe615864f6c05c355bdacf4f7f5e)
+        ;
+
+        
+    
+    
+            var marker_586a2736bd84690b175fb009ef5a622b = L.marker(
+                [52.551457, -112.959665],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_cd7b46cb4067d03dc69aec2f87fd2838 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_586a2736bd84690b175fb009ef5a622b.setIcon(icon_cd7b46cb4067d03dc69aec2f87fd2838);
+        
+    
+        var popup_7abfc04ccdd047ae9445ecd001eea71f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_17e259ea3cdaff66dd165367bcc335a2 = $(`<div id="html_17e259ea3cdaff66dd165367bcc335a2" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 8341</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">manganese_value: 0.111</div><div style="white-space: nowrap;">total dissolved solids_value: 510.0</div></div>`)[0];
+                popup_7abfc04ccdd047ae9445ecd001eea71f.setContent(html_17e259ea3cdaff66dd165367bcc335a2);
+            
+        
+
+        marker_586a2736bd84690b175fb009ef5a622b.bindPopup(popup_7abfc04ccdd047ae9445ecd001eea71f)
+        ;
+
+        
+    
+    
+            var marker_9f79b62fe143c3eacbb5499dfbdef154 = L.marker(
+                [52.564529, -112.932505],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_a678703da740384f4bdc59d1d07bd0c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_9f79b62fe143c3eacbb5499dfbdef154.setIcon(icon_a678703da740384f4bdc59d1d07bd0c5);
+        
+    
+        var popup_755ab99a435fc3379cf54648cc800bab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f28fbeb5af6ea3ec07aadc2958ef8023 = $(`<div id="html_f28fbeb5af6ea3ec07aadc2958ef8023" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 6435</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 277.0</div><div style="white-space: nowrap;">total dissolved solids_value: 647.0</div><div style="white-space: nowrap;">ph_value: 8.61</div></div>`)[0];
+                popup_755ab99a435fc3379cf54648cc800bab.setContent(html_f28fbeb5af6ea3ec07aadc2958ef8023);
+            
+        
+
+        marker_9f79b62fe143c3eacbb5499dfbdef154.bindPopup(popup_755ab99a435fc3379cf54648cc800bab)
+        ;
+
+        
+    
+    
+            var marker_8c510618260f18fb943b23f7be8a6315 = L.marker(
+                [52.56443, -112.9325],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_d2ee03f7d98b5ab5bc309ebd54e77a08 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_8c510618260f18fb943b23f7be8a6315.setIcon(icon_d2ee03f7d98b5ab5bc309ebd54e77a08);
+        
+    
+        var popup_e907c0543deac36b3ac6da982f3bbb3d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_926e054744b8af84a80ecb6ba77a82c8 = $(`<div id="html_926e054744b8af84a80ecb6ba77a82c8" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 6169</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 273.0</div><div style="white-space: nowrap;">total dissolved solids_value: 650.0</div><div style="white-space: nowrap;">ph_value: 8.6</div></div>`)[0];
+                popup_e907c0543deac36b3ac6da982f3bbb3d.setContent(html_926e054744b8af84a80ecb6ba77a82c8);
+            
+        
+
+        marker_8c510618260f18fb943b23f7be8a6315.bindPopup(popup_e907c0543deac36b3ac6da982f3bbb3d)
+        ;
+
+        
+    
+    
+            var marker_c5624ff776a36dee3fa5b22580c4be98 = L.marker(
+                [52.557738, -112.933715],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_b57fb881082edd09e563c9339553e799 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_c5624ff776a36dee3fa5b22580c4be98.setIcon(icon_b57fb881082edd09e563c9339553e799);
+        
+    
+        var popup_f3ac030bc34e24a161dbf46f96087cea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_175de855b907fd79cf53444173ad679c = $(`<div id="html_175de855b907fd79cf53444173ad679c" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 11812</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 256.0</div><div style="white-space: nowrap;">total dissolved solids_value: 629.0</div><div style="white-space: nowrap;">ph_value: 8.73</div></div>`)[0];
+                popup_f3ac030bc34e24a161dbf46f96087cea.setContent(html_175de855b907fd79cf53444173ad679c);
+            
+        
+
+        marker_c5624ff776a36dee3fa5b22580c4be98.bindPopup(popup_f3ac030bc34e24a161dbf46f96087cea)
+        ;
+
+        
+    
+    
+            var marker_d6cfe637345c5b99d95d48491ad259ed = L.marker(
+                [52.557845, -112.933605],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_09f4d20340fd8ae57c4dad7e2433462b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_d6cfe637345c5b99d95d48491ad259ed.setIcon(icon_09f4d20340fd8ae57c4dad7e2433462b);
+        
+    
+        var popup_3d3ed7e9165809d17337391085ce6a7f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b570d6abcf93d1679c628f59e26b0639 = $(`<div id="html_b570d6abcf93d1679c628f59e26b0639" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 8454</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">sodium_value: 267.0</div><div style="white-space: nowrap;">total dissolved solids_value: 641.0</div><div style="white-space: nowrap;">ph_value: 8.72</div></div>`)[0];
+                popup_3d3ed7e9165809d17337391085ce6a7f.setContent(html_b570d6abcf93d1679c628f59e26b0639);
+            
+        
+
+        marker_d6cfe637345c5b99d95d48491ad259ed.bindPopup(popup_3d3ed7e9165809d17337391085ce6a7f)
+        ;
+
+        
+    
+    
+            var marker_7460d478565d95371b0267a4a11766a4 = L.marker(
+                [52.557196, -112.93496],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_3c00741daf0b83e25aab54ec154d02cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_7460d478565d95371b0267a4a11766a4.setIcon(icon_3c00741daf0b83e25aab54ec154d02cf);
+        
+    
+        var popup_4dcb3b98dbdad71ee8f0a191e28e8f40 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32066263b625c7051bfab94a067ddd74 = $(`<div id="html_32066263b625c7051bfab94a067ddd74" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 11815</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">iron (total)_value: 0.468</div></div>`)[0];
+                popup_4dcb3b98dbdad71ee8f0a191e28e8f40.setContent(html_32066263b625c7051bfab94a067ddd74);
+            
+        
+
+        marker_7460d478565d95371b0267a4a11766a4.bindPopup(popup_4dcb3b98dbdad71ee8f0a191e28e8f40)
+        ;
+
+        
+    
+    
+            var marker_1bce5489b2d03a8713c94caa0fa5a71e = L.marker(
+                [52.557362, -112.934822],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_714d2fd9e4906f975806bb70425ff35a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_1bce5489b2d03a8713c94caa0fa5a71e.setIcon(icon_714d2fd9e4906f975806bb70425ff35a);
+        
+    
+        var popup_8f3211a5e9c7b9e09425896dba374898 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2d414c9c2986f344658be65b5a4a262a = $(`<div id="html_2d414c9c2986f344658be65b5a4a262a" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 7170</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">iron (total)_value: 0.4</div></div>`)[0];
+                popup_8f3211a5e9c7b9e09425896dba374898.setContent(html_2d414c9c2986f344658be65b5a4a262a);
+            
+        
+
+        marker_1bce5489b2d03a8713c94caa0fa5a71e.bindPopup(popup_8f3211a5e9c7b9e09425896dba374898)
+        ;
+
+        
+    
+    
+            var marker_a4cc472cd55e870fe852f71370b04805 = L.marker(
+                [52.556913, -112.934667],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_0815db3cc5895baca9254c0308a17484 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_a4cc472cd55e870fe852f71370b04805.setIcon(icon_0815db3cc5895baca9254c0308a17484);
+        
+    
+        var popup_cc0336a4a1766f5f72606bc489990a29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9305d5b76f0c3614ec87a461f4e41bf4 = $(`<div id="html_9305d5b76f0c3614ec87a461f4e41bf4" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 11813</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">manganese_value: 0.0977</div></div>`)[0];
+                popup_cc0336a4a1766f5f72606bc489990a29.setContent(html_9305d5b76f0c3614ec87a461f4e41bf4);
+            
+        
+
+        marker_a4cc472cd55e870fe852f71370b04805.bindPopup(popup_cc0336a4a1766f5f72606bc489990a29)
+        ;
+
+        
+    
+    
+            var marker_96a9f1691e51bf0cddb75f179a6ca017 = L.marker(
+                [52.556053, -112.939438],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_de1addabf389bc4451a7c77e9b1449c7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_96a9f1691e51bf0cddb75f179a6ca017.setIcon(icon_de1addabf389bc4451a7c77e9b1449c7);
+        
+    
+        var popup_fe580bd32f066f21e9a229ec512f9573 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea7521e3458e989d4488685ef7ad3d05 = $(`<div id="html_ea7521e3458e989d4488685ef7ad3d05" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 11811</div><div style="white-space: nowrap;">ABOVE AESTHETIC OBJECTIVE:</div><div style="white-space: nowrap;">manganese_value: 0.0741</div><div style="white-space: nowrap;">iron_value: 0.306</div><div style="white-space: nowrap;">iron (total)_value: 0.326</div></div>`)[0];
+                popup_fe580bd32f066f21e9a229ec512f9573.setContent(html_ea7521e3458e989d4488685ef7ad3d05);
+            
+        
+
+        marker_96a9f1691e51bf0cddb75f179a6ca017.bindPopup(popup_fe580bd32f066f21e9a229ec512f9573)
+        ;
+
+        
+    
+    
+            var marker_f0a8b3a43e005dc5a5bdf151914b8f95 = L.marker(
+                [52.558812, -112.936805],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_da425a19a2ed76f0066b367d2e07cd93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f0a8b3a43e005dc5a5bdf151914b8f95.setIcon(icon_da425a19a2ed76f0066b367d2e07cd93);
+        
+    
+        var popup_63a6dc6a02bfd572a3406c8b8d6e6703 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_569d593c9eecb374d48a1c3492aad55b = $(`<div id="html_569d593c9eecb374d48a1c3492aad55b" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 9682</div></div>`)[0];
+                popup_63a6dc6a02bfd572a3406c8b8d6e6703.setContent(html_569d593c9eecb374d48a1c3492aad55b);
+            
+        
+
+        marker_f0a8b3a43e005dc5a5bdf151914b8f95.bindPopup(popup_63a6dc6a02bfd572a3406c8b8d6e6703)
+        ;
+
+        
+    
+    
+            var marker_1668d0aa7a584fa4a7a8894bf25d70ee = L.marker(
+                [52.55863, -112.936911],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_d350bb61f80738081283aa020fe39801 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1668d0aa7a584fa4a7a8894bf25d70ee.setIcon(icon_d350bb61f80738081283aa020fe39801);
+        
+    
+        var popup_43f1c21692ce332ac53786e9686ec562 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dbaaeb2464eb632f1a86880b6bbf9860 = $(`<div id="html_dbaaeb2464eb632f1a86880b6bbf9860" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 11814</div></div>`)[0];
+                popup_43f1c21692ce332ac53786e9686ec562.setContent(html_dbaaeb2464eb632f1a86880b6bbf9860);
+            
+        
+
+        marker_1668d0aa7a584fa4a7a8894bf25d70ee.bindPopup(popup_43f1c21692ce332ac53786e9686ec562)
+        ;
+
+        
+    
+    
+            var marker_4c41118b300fba2e33426c2da6dc4faa = L.marker(
+                [52.552564, -112.945085],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_3a47619174b3cfa9b7c9198d906016d2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "arrow-up-from-ground-water", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_4c41118b300fba2e33426c2da6dc4faa.setIcon(icon_3a47619174b3cfa9b7c9198d906016d2);
+        
+    
+        var popup_60694383b38df99a6e45cecb62c5929a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_994a0be69029bd93f5fa480eda833039 = $(`<div id="html_994a0be69029bd93f5fa480eda833039" style="width: 100.0%; height: 100.0%;"><div style="white-space: nowrap;">WELL_ID: 6431</div></div>`)[0];
+                popup_60694383b38df99a6e45cecb62c5929a.setContent(html_994a0be69029bd93f5fa480eda833039);
+            
+        
+
+        marker_4c41118b300fba2e33426c2da6dc4faa.bindPopup(popup_60694383b38df99a6e45cecb62c5929a)
+        ;
+
+        
+    
+    
+            var marker_b8fbe5c9d87c8d28066edfff64d84b0d = L.marker(
+                [52.559574110569756, -112.95376276565023],
+                {}
+            ).addTo(map_383a7fdcf674a6d0977b56cdcc554fab);
+        
+    
+            var icon_b964304edce0884b29d57c281022de01 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "bore-hole", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_b8fbe5c9d87c8d28066edfff64d84b0d.setIcon(icon_b964304edce0884b29d57c281022de01);
+        
+</script>
+</html>
